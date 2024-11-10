@@ -126,6 +126,27 @@
     padding: 0;
 }
 
+.navbar-live {
+    position: relative;
+    top: -4px;
+    left: 0;
+    width: max-content;
+    height: max-content;
+    font-size: 20px;
+    font-family: "Itim";
+    font-weight: bold;
+    color: #DA8359;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-navs {
+    position: relative;
+    top: 0;
+    left: 5px;
+}
+
 
 
 
