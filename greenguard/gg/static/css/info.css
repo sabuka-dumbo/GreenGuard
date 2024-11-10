@@ -54,3 +54,16 @@
 .register:hover{
     background-color: #5a9f46;
 }
+
+.login{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    font-family: 'Itim', sans-serif;
+    font-size: 20px;
+    transition: color 0.3s ease
+}
+.login:hover{
+    color:#5a9f46;
+}
