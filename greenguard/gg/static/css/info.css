@@ -81,7 +81,7 @@
 .card1-image{
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 30px 30px 30px 10px;
     margin-bottom: 20px;
     margin-left: 70%;
     align-items: left;
@@ -113,10 +113,8 @@
     border-radius: 10px;
     transition: background-color 0.3s ease;
     font-family: 'Itim', sans-serif;
-    align-items: right;
-    margin-left: 80%;
-    margin-bottom: 20px;
     font-size: 20px;
+    margin-left: 75%;
 }
 .card1-button:hover{
     background-color: #A5B68D;

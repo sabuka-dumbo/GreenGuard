@@ -9,8 +9,11 @@ let is_ready = true;
 let open = false;
 
 burgermenu.addEventListener("click", function() {
+    console.log("1")
     if (is_ready == true) {
+        console.log("2")
         if (open == false) {
+            console.log("3")
             span1.style.animation = "span1_open ease 1s";
             span2.style.animation = "span2_open ease 1s";
             span3.style.animation = "span3_open ease 1s";
@@ -23,7 +26,7 @@ burgermenu.addEventListener("click", function() {
                 span2.style.opacity = "0";
                 span3.style.top = '-20px';
                 span1.style.rotate = "45deg";
-                span2.style.rotate = "-45deg";
+                span3.style.rotate = "-45deg";
             })
         } else {
 
