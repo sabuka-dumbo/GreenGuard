@@ -79,11 +79,10 @@
 }
 
 .card1-image{
-    width: %;
+    width: 500px;
     height: auto;
     border-radius: 30px 30px 30px 10px;
     margin-top: 20px;
-    margin-left: 80%;
     align-items: left;
     padding: 60px;
     background-color: pink;
