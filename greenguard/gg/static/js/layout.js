@@ -18,6 +18,10 @@ burgermenu.addEventListener("click", function() {
             span3.style.animation = "span3_open ease 1s";
             navbar.style.animation = "navbar_open ease 1s";
 
+            navbar.addEventListener("animationend", function() {
+                navbar.style.w
+            })
+
             span1.addEventListener("animationend", function() {
                 span1.style.animation = '';
                 span2.style.animation = '';
