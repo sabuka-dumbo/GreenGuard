@@ -1,3 +1,7 @@
-body {
-    background-color: #FCFAEE;
+.body {
+    background-color: #a58d00;
+}
+
+.text {
+    font-size: 2vw;
 }
