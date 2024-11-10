@@ -84,7 +84,6 @@
     left: 0;
     width: 200px;
     height: max-content;
-    background-color: blanchedalmond;
     margin: 0;
     padding: 0;
     margin-top: 15px;
@@ -107,8 +106,8 @@
     position: relative;
     top: 1px;
     left: 0;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     color: black;
     margin-right: 10px;
     display: inline-block;
