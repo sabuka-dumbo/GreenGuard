@@ -96,9 +96,11 @@
     font-family: 'Itim', sans-serif;
     text-align: left;
     padding-right: 0px;
+    width: 400px;
 }
 .card1-title pre{
     color: #5a9f46;
+    font-family: 'Itim', sans-serif;
 }
 .card1-button{
     display: inline;
