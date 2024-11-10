@@ -150,7 +150,7 @@
     top: 0;
     left: 0;
     width: 180px;
-    height: 150px;
+    height: 300px;
     background-color: aqua;
     margin: 0;
     padding: 0;
@@ -158,6 +158,7 @@
     margin-left: 35px;
     margin-right: 35px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
