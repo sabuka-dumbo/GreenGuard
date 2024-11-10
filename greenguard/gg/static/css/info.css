@@ -80,6 +80,7 @@
 
 .card1-image{
     width: 500px;
+    box-sizing: border-box;
     height: auto;
     border-radius: 30px 30px 30px 10px;
     margin-top: 20px;
