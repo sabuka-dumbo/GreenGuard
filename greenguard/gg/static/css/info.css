@@ -13,3 +13,16 @@
     background-color: #ECDFCC;
 }
 
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.logo{
+    width: 200px;
+}
