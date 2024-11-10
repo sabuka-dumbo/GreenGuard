@@ -5,13 +5,21 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" src="{% static 'css/layout.css' %}">
         {% block links %}
         {% endblock %}
     </head>
     <body>
 
-        {% block body %}
-        {% endblock %}
+        <nav class="navbar">
+
+        </nav>
+
+        <div>
+            {% block body %}
+            {% endblock %} 
+        </div>
+
 
         <script src="{% static 'js/layout.html' %}"></script>
     </body>
