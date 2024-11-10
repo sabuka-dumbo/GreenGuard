@@ -9,11 +9,10 @@ let is_ready = true;
 let open = false;
 
 burgermenu.addEventListener("click", function() {
-    console.log("1")
     if (is_ready == true) {
-        console.log("2")
+        is_ready = false;
+
         if (open == false) {
-            console.log("3")
             span1.style.animation = "span1_open ease 1s";
             span2.style.animation = "span2_open ease 1s";
             span3.style.animation = "span3_open ease 1s";
@@ -27,9 +26,26 @@ burgermenu.addEventListener("click", function() {
                 span3.style.top = '-20px';
                 span1.style.rotate = "45deg";
                 span3.style.rotate = "-45deg";
+                is_ready = true;
+                open = true;
             })
         } else {
+            span1.style.animation = "span1_close ease 1s";
+            span2.style.animation = "span2_close ease 1s";
+            span3.style.animation = "span3_close ease 1s";
 
+            span1.addEventListener("animationend", function() {
+                span1.style.animation = '';
+                span2.style.animation = '';
+                span3.style.animation = '';
+                span1.style.top = "0px";
+                span2.style.opacity = "1";
+                span3.style.top = '0px';
+                span1.style.rotate = "0deg";
+                span3.style.rotate = "0deg";
+                is_ready = true;
+                open = false;
+            })
         }
     }
 })
