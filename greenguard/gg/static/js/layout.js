@@ -16,6 +16,7 @@ burgermenu.addEventListener("click", function() {
             span1.style.animation = "span1_open ease 1s";
             span2.style.animation = "span2_open ease 1s";
             span3.style.animation = "span3_open ease 1s";
+            navbar.style.animation = "navbar_open ease 1s";
 
             span1.addEventListener("animationend", function() {
                 span1.style.animation = '';
@@ -33,6 +34,7 @@ burgermenu.addEventListener("click", function() {
             span1.style.animation = "span1_close ease 1s";
             span2.style.animation = "span2_close ease 1s";
             span3.style.animation = "span3_close ease 1s";
+            navbar.style.animation = "navbar_close ease 1s";
 
             span1.addEventListener("animationend", function() {
                 span1.style.animation = '';
