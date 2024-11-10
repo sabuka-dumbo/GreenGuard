@@ -99,9 +99,11 @@
     width: 400px;
 }
 .card1-title pre{
+    display: inline;
     color: #5a9f46;
     font-family: 'Itim', sans-serif;
 }
+
 .card1-button{
     display: inline;
     padding: 10px 20px;
@@ -113,6 +115,7 @@
     font-family: 'Itim', sans-serif;
     align-items: right;
     margin-left: 80%;
+    margin-bottom: 20px;
     font-size: 20px;
 }
 .card1-button:hover{

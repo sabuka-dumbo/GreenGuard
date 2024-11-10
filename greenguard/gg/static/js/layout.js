@@ -22,6 +22,8 @@ burgermenu.addEventListener("click", function() {
                 span1.style.top = "20px";
                 span2.style.opacity = "0";
                 span3.style.top = '-20px';
+                span1.style.rotate = "45deg";
+                span2.style.rotate = "-45deg";
             })
         } else {
 
