@@ -26,9 +26,10 @@
 .logo{
     width: 200px;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 30px;
     left: 0%;
     color: #A5B68D;
+    font-family: 'Itim', sans-serif;
 }
 
 .navbar ul li{
@@ -42,3 +43,5 @@
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+
+.

@@ -20,6 +20,8 @@
     height: 100vh;
     background-color: #F1F1F1;
     z-index: 1000;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .working_area {
@@ -77,7 +79,28 @@
 }
 
 .navbar-navmenu {
-    
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: max-content;
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.navbar-category {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    padding: 0;
+    margin: 0;
+    font-family: "Itim";
 }
 
 
