@@ -76,6 +76,7 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin-left: 5%;
+    border-radius: 8px;
 }
 .card1-image{
     width: 100%;
@@ -90,7 +91,6 @@
     color: black;
     margin-top: 30%;
     font-family: 'Itim', sans-serif;
-    border-radius: 40px 8 8 8px;
 }
 .card1-title pre{
     color: #5a9f46;
