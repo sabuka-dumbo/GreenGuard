@@ -10,7 +10,7 @@
     height: 100vh;
     background-size: cover;
     background-position: center;
-    background-color: #ECDFCC;
+    background-color: #FCFAEE;
 }
 
 .navbar{
@@ -25,4 +25,11 @@
 
 .logo{
     width: 200px;
+    cursor: pointer;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.navbar ul li a{
+    
 }

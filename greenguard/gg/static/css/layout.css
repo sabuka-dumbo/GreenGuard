@@ -10,8 +10,22 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 20vw;
+    width: 250px;
     height: 100vh;
     background-color: #F1F1F1;
     z-index: 1000;
+}
+
+.working_area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 250px);
+    height: max-content;
+    margin-left: 250px;
+    z-index: 900;
+}
+
+@media screen and (max-widht: 720px) {
+    
 }
