@@ -19,7 +19,7 @@ burgermenu.addEventListener("click", function() {
             navbar.style.animation = "navbar_open ease 1s";
 
             navbar.addEventListener("animationend", function() {
-                navbar.style.w
+                navbar.style.width = "100%";
             })
 
             span1.addEventListener("animationend", function() {
@@ -39,6 +39,10 @@ burgermenu.addEventListener("click", function() {
             span2.style.animation = "span2_close ease 1s";
             span3.style.animation = "span3_close ease 1s";
             navbar.style.animation = "navbar_close ease 1s";
+
+            navbar.addEventListener("animationend", function() {
+                navbar.style.width = '';
+            })
 
             span1.addEventListener("animationend", function() {
                 span1.style.animation = '';
