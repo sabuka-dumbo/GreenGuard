@@ -2,6 +2,16 @@
     background-color: #FCFAEE;
 }
 
+.normal-font {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.small-font {
+    font-size: 15px;
+    font-weight: bold;
+}
+
 .navbar {
     position: fixed;
     top: 0;
@@ -62,8 +72,12 @@
     margin: 0;
     padding: 0;
     margin-bottom: 2.5px;
-    font-size: 16px;
     font-family: "Itim";
+    text-align: center;
+}
+
+.navbar-navmenu {
+    
 }
 
 

@@ -14,7 +14,7 @@
 }
 
 .navbar{
-    width: 100%;
+    width: 90%;
     margin: auto;
     padding: 35px 0;
     display: flex;
@@ -28,6 +28,7 @@
     cursor: pointer;
     font-size: 25px;
     left: 0%;
+    color: #A5B68D;
 }
 
 .navbar ul li{
