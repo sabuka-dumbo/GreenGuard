@@ -29,7 +29,7 @@
     top: 0;
     left: 0;
     width: calc(100% - 250px);
-    height: max-content;
+    height: 100%;
     margin-left: 250px;
     z-index: 900;
 }
@@ -145,6 +145,32 @@
     left: 5px;
 }
 
+.burgermenu {
+    display: none;
+    width: 70px;
+    height: max-content;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.span {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+    background-color: black;
+    display: block;
+}
+
+
+
+
+
 
 
 
@@ -161,6 +187,123 @@
 
 /* media */
 
-@media screen and (max-widht: 720px) {
-    
+@media screen and (max-width: 720px) {
+    .navbar-img {
+        display: none;
+    }
+
+    .navbar-info {
+        display: none;
+    }
+
+    .navbar-navmenu {
+        display: none;
+    }
+
+    .navbar {
+        width: 100px;
+    }
+
+    .working_area {
+        width: calc(100% - 100px);
+        margin-left: 100px;
+    }
+
+    .burgermenu {
+        display: block;
+    }
+}
+
+
+
+
+
+/* animations */
+
+@keyframes span1_open {
+    0% {
+        top: 0;
+        rotate: 0;
+    }
+
+    100% {
+        top: 20px;
+        rotate: 45deg;
+    }
+}
+
+@keyframes span2_open {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes span3_open {
+    0% {
+        top: 0;
+        rotate: 0;
+    }
+
+    100% {
+        top: -20px;
+        rotate: -45deg;
+    }
+}
+
+@keyframes span1_close {
+    0% {
+        top: 20px;
+        rotate: 45px;
+    }
+
+    100% {
+        top: 0px;
+        rotate: 0deg;
+    }
+}
+
+@keyframes span2_close {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes span3_close {
+    0% {
+        top: -20px;
+        rotate: -45deg;
+    }
+
+    100% {
+        top: 0px;
+        rotate: 0deg;
+    }
+}
+
+@keyframes navbar_open {
+    0% {
+        width: 100px;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes navbar_close {
+    0% {
+        width: 100%;
+    }
+
+    100% {
+        width: 100px;
+    }
 }
