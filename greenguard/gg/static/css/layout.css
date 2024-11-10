@@ -105,10 +105,10 @@
 
 .navbar-icon {
     position: relative;
-    top: 0;
+    top: 1px;
     left: 0;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     color: black;
     margin-right: 10px;
     display: inline-block;
@@ -116,12 +116,14 @@
 
 .navbar-nav {
     position: relative;
-    top: 0;
+    top: -1px;
     left: 0;
     width: 60%;
     height: max-content;
     display: inline-block;
     font-family: "Itim";
+    margin: 0;
+    padding: 0;
 }
 
 
