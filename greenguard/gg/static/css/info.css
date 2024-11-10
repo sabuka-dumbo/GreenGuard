@@ -39,9 +39,12 @@
     position: relative;
 }
 
-.navbar ul li a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
 
-.
+.register{
+    padding: 10px 20px;
+    background-color: #ECDFCC;
+    color: black;
+    text-decoration: none;
+    font-family: 'Itim', sans-serif;
+    
+}
