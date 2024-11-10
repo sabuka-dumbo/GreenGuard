@@ -38,12 +38,12 @@
     position: relative;
     top: 0;
     left: 0;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     margin: 0;
     padding: 0;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 65px;
+    margin-right: 65px;
     margin-top: 30px;
     border-radius: 100%;
     border: none;
@@ -114,7 +114,7 @@
 
 .navbar-nav {
     position: relative;
-    top: -1px;
+    top: -4px;
     left: 0;
     width: 60%;
     height: max-content;
@@ -143,6 +143,21 @@
     position: relative;
     top: 0;
     left: 5px;
+}
+
+.navbar-tip-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 150px;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 20px;
 }
 
 
