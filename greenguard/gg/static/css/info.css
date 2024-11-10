@@ -69,9 +69,8 @@
 }
 
 .card1{
-    width: 300px;
+    width: 400px;
     padding: 60px;
-    box-sizing: ;
     background-color: #ECDFCC;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -83,6 +82,15 @@
     height: auto;
     border-radius: 8px;
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 60px;
     background-color: pink;
+    font-family: ;
+}
+.card1-title{
+    font-size: 20px;
+    color: black;
+    margin-top: 50px;
+}
+.card1-title pre{
+    color: #5a9f46;
 }
