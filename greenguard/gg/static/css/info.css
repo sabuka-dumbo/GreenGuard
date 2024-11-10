@@ -14,7 +14,7 @@
 }
 
 .navbar{
-    width: 85%;
+    width: 100%;
     margin: auto;
     padding: 35px 0;
     display: flex;
@@ -27,9 +27,17 @@
     width: 200px;
     cursor: pointer;
     font-size: 25px;
-    padding-left: 10px;
+    left: 0%;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
 }
 
 .navbar ul li a{
-    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
