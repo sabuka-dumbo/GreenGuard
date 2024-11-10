@@ -1,7 +1,17 @@
 .body {
-    background-color: #a58d00;
+    background-color: #FCFAEE;
 }
 
 .text {
     font-size: 4vw;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    height: 100vh;
+    background-color: #F1F1F1;
+    z-index: 1000;
 }
