@@ -152,6 +152,7 @@
     margin-top: 20px;
     margin-left: 15px;
     margin-right: 15px;
+    z-index: 2000;
 }
 
 .span {
@@ -304,15 +305,17 @@
 
 @keyframes navbar2_open {
     0% {
+        display: block;
         opacity: 0;
     }
 
     100% {
+        display: block;
         opacity: 1;
     }
 }
 
-@keyframes navbar2_open {
+@keyframes navbar2_close {
     0% {
         opacity: 1;
         display: block;

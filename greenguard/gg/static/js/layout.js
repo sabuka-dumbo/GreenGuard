@@ -36,6 +36,7 @@ burgermenu.addEventListener("click", function() {
                 span1.style.rotate = "45deg";
                 span3.style.rotate = "-45deg";
                 navbar2.style.display = "block";
+                navbar2.
                 is_ready = true;
                 open = true;
             })
