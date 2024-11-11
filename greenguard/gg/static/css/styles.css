@@ -168,31 +168,42 @@
 /* Container for the loader */
 .loader {
     position: relative;
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* Create a leaf shape using clip-path */
+/* Realistic leaf shape using border-radius and transform */
 .leaf {
     position: absolute;
-    width: 30px;
-    height: 50px;
+    width: 50px;
+    height: 90px;
     background-color: #4CAF50; /* Eco-friendly green color */
-    clip-path: polygon(50% 0%, 100% 40%, 80% 100%, 50% 80%, 20% 100%, 0% 40%); /* Leaf-like shape */
-    animation: growLeaf 1.5s infinite ease-in-out;
+    border-radius: 50%; /* Creating rounded edges */
+    transform-origin: center;
+    animation: growLeaf 2s infinite ease-in-out;
+    opacity: 0;
 }
 
-/* Keyframes for the leaf growing and shrinking */
+/* Keyframes for the leaf growing and shrinking animation */
 @keyframes growLeaf {
-    0% { transform: scale(0); opacity: 0; }
-    50% { transform: scale(1); opacity: 1; }
-    100% { transform: scale(0); opacity: 0; }
+    0% {
+        transform: scale(0.1) rotate(0deg);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1) rotate(90deg); /* Add rotation for a more dynamic effect */
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.1) rotate(180deg);
+        opacity: 0;
+    }
 }
 
-/* Position each leaf around the circle with different animation delays */
+/* Position each leaf with slight variations */
 .leaf-1 {
     top: 0;
     animation-delay: 0s;
@@ -200,15 +211,15 @@
 
 .leaf-2 {
     right: 0;
-    animation-delay: 0.3s;
+    animation-delay: 0.5s;
 }
 
 .leaf-3 {
     bottom: 0;
-    animation-delay: 0.6s;
+    animation-delay: 1s;
 }
 
 .leaf-4 {
     left: 0;
-    animation-delay: 0.9s;
+    animation-delay: 1.5s;
 }
