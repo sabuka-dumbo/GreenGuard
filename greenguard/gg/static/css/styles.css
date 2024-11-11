@@ -154,3 +154,62 @@
         box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.432);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Container for the loader */
+.loader {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Keyframes for the growing leaf animation */
+@keyframes growLeaf {
+    0% { transform: scale(0); opacity: 0; }
+    50% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(0); opacity: 0; }
+}
+
+/* Styling each leaf element */
+.loader .leaf {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #4CAF50; /* Eco-friendly green color */
+    border-radius: 50%; /* Makes the leaves circular */
+    transform-origin: bottom center;
+    animation: growLeaf 1.5s infinite ease-in-out;
+}
+
+/* Position each leaf around the circumference */
+.loader .leaf:nth-child(1) {
+    top: 0;
+    animation-delay: 0s;
+}
+
+.loader .leaf:nth-child(2) {
+    right: 0;
+    animation-delay: 0.3s;
+}
+
+.loader .leaf:nth-child(3) {
+    bottom: 0;
+    animation-delay: 0.6s;
+}
+
+.loader .leaf:nth-child(4) {
+    left: 0;
+    animation-delay: 0.9s;
+}
