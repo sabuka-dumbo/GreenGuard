@@ -124,7 +124,7 @@
     padding: 0;
 }
 
-.navbar-live {
+.navbar-line {
     position: relative;
     top: -4px;
     left: 0;
@@ -189,6 +189,14 @@
 /* media */
 
 @media screen and (max-width: 720px) {
+    .normal-font {
+        font-size: 25px;
+    }
+
+    .small-font {
+        font-size: 20px;
+    }
+
     .navbar-main-part {
         display: none;
     }
@@ -206,7 +214,28 @@
         display: block;
     }
 
-    
+    .navbar-img {
+        width: 180px;
+        height: 180px;
+        margin-top: 10px;
+    }
+
+    .navbar-info {
+        width: 350px;
+    }
+
+    .navbar-info-text {
+        width: 350px;
+    }
+
+    .navbar-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .navbar-line {
+
+    }
 }
 
 
