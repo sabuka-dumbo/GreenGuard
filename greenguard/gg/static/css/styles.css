@@ -13,7 +13,7 @@
 }
 
 .small_card:hover {
-    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.66);
+    
 }
 
 .large_card {
@@ -129,4 +129,26 @@
     right: 25px;
     width: 160px;
     height: max-content;
+}
+
+
+
+
+
+
+
+
+
+
+/* animations */
+@keyframes card_hover {
+    0% {
+        box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.281);
+        transform: scale(0);
+    }
+
+    100% {
+        box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.66);
+        transform: scale(0.5);
+    }
 }
