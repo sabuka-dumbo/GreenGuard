@@ -2,6 +2,11 @@
     background-color: #FCFAEE;
 }
 
+.big-font {
+    font-size: 25px;
+    font-weight: bold;
+}
+
 .normal-font {
     font-size: 20px;
     font-weight: bold;

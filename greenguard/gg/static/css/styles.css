@@ -92,3 +92,30 @@
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.281); 
     margin-top: 50px;  
 }
+
+.tip_card_title {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: max-content;
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    font-family: "Itim";
+    text-align: center;
+}
+
+.tip_card_tip {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 250px;
+    margin-left: 30px;
+    background-color: aqua;
+    text-wrap: wrap;
+    overflow: wrap;
+}
