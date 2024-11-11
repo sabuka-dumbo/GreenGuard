@@ -123,6 +123,7 @@
     background-color: #A5B68D;
 }
 
-.card2{
-    background-color: white;
+.card2-text{
+    font-family: 'Itim', sans-serif;
+    font-size: 50px;
 }
