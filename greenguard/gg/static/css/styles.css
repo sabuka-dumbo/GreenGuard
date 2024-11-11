@@ -44,3 +44,14 @@
     margin-left: 50px;
 }
 
+.small_card_texts {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 50px;
+    background-color: aqua;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
