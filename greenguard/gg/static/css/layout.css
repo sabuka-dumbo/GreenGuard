@@ -234,7 +234,11 @@
     }
 
     .navbar-line {
+        font-size: 30px;
+    }
 
+    .navbar-category {
+        font-size: 25px;
     }
 }
 
