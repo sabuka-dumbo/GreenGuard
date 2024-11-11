@@ -124,13 +124,8 @@
     padding: 0;
 }
 
-.navbar-nav:hover {
+.navbar-navs:hover {
     animation: navbar-nav-animation 0.1s ease;
-    color: #DA8359;
-}
-
-.navbar-nav:hover {
-    animation: navbar-nav-animation 0.5s ease;
     color: #DA8359;
 }
 
