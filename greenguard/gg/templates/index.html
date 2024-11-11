@@ -15,14 +15,20 @@
 
 
 {% block body %}
-    <div class="cards_holder">
-        <div class="small_card">
-            <img class="small_card_img" src="{% static 'pics/working_page/light_bulb.svg' %}">
+    <div style="
+        display: flex;
+        justify-items: center;
+        width: 100%;
+    ">
+        <div class="cards_holder">
+            <div class="small_card">
+                <img class="small_card_img" src="{% static 'pics/working_page/light_bulb.svg' %}">
+            </div>
+            <div class="small_card"></div>
         </div>
-        <div class="small_card"></div>
-    </div>
 
-    <div class="large_card"></div>
+        <div class="large_card"></div>
+    </div>
 
     <script src="{% static 'js/index.js' %}"></script>
 {% endblock %}
