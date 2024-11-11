@@ -112,10 +112,16 @@
     position: relative;
     top: 0;
     left: 0;
-    width: 200px;
+    width: 170px;
     height: 250px;
     margin-left: 30px;
     overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+}
+
+.tip_card_img{
+    position: absolute;
+    bottom: 30px;
+    right: 25px;
+    width: 160px;
+    height: max-content;
 }
