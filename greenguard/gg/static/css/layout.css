@@ -125,7 +125,7 @@
 }
 
 .navbar-navs:hover {
-    animation: navbar-nav-animation 0.1s ease;
+    animation: navbar-nav-animation 0.4s ease;
     color: #DA8359;
 }
 
@@ -370,7 +370,7 @@
         color: black;
     }
 
-    30% {
+    70% {
         color: #DA8359;
     }
 }
