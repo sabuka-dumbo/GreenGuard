@@ -124,6 +124,16 @@
     padding: 0;
 }
 
+.navbar-nav:hover {
+    animation: navbar-nav-animation 0.5s ease;
+    color: #DA8359;
+}
+
+.navbar-nav:hover {
+    animation: navbar-nav-animation 0.5s ease;
+    color: #DA8359;
+}
+
 .navbar-line {
     position: relative;
     top: -4px;
@@ -357,5 +367,15 @@
     100% {
         opacity: 0;
         display: block;
+    }
+}
+
+@keyframes navbar-nav-animation {
+    0% {
+        color: black;
+    }
+
+    100% {
+        color: #DA8359;
     }
 }
