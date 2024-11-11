@@ -168,48 +168,47 @@
 /* Container for the loader */
 .loader {
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* Keyframes for the growing leaf animation */
+/* Create a leaf shape using clip-path */
+.leaf {
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    background-color: #4CAF50; /* Eco-friendly green color */
+    clip-path: polygon(50% 0%, 100% 40%, 80% 100%, 50% 80%, 20% 100%, 0% 40%); /* Leaf-like shape */
+    animation: growLeaf 1.5s infinite ease-in-out;
+}
+
+/* Keyframes for the leaf growing and shrinking */
 @keyframes growLeaf {
     0% { transform: scale(0); opacity: 0; }
     50% { transform: scale(1); opacity: 1; }
     100% { transform: scale(0); opacity: 0; }
 }
 
-/* Styling each leaf element */
-.loader .leaf {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background-color: #4CAF50; /* Eco-friendly green color */
-    border-radius: 50%; /* Makes the leaves circular */
-    transform-origin: bottom center;
-    animation: growLeaf 1.5s infinite ease-in-out;
-}
-
-/* Position each leaf around the circumference */
-.loader .leaf:nth-child(1) {
+/* Position each leaf around the circle with different animation delays */
+.leaf-1 {
     top: 0;
     animation-delay: 0s;
 }
 
-.loader .leaf:nth-child(2) {
+.leaf-2 {
     right: 0;
     animation-delay: 0.3s;
 }
 
-.loader .leaf:nth-child(3) {
+.leaf-3 {
     bottom: 0;
     animation-delay: 0.6s;
 }
 
-.loader .leaf:nth-child(4) {
+.leaf-4 {
     left: 0;
     animation-delay: 0.9s;
 }
