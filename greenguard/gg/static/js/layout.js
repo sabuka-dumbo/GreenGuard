@@ -10,6 +10,8 @@ let is_ready = true;
 let open = false;
 
 burgermenu.addEventListener("click", function() {
+    navbar2.style.display = "block";
+
     if (is_ready == true) {
         is_ready = false;
 
@@ -18,8 +20,6 @@ burgermenu.addEventListener("click", function() {
             span2.style.animation = "span2_open ease 1s";
             span3.style.animation = "span3_open ease 1s";
             navbar.style.animation = "navbar_open ease 1s";
-            navbar2.style.display = "block";
-            navbar2.style.animation = "navbar2_open ease 0.5s"
 
             navbar.addEventListener("animationend", function() {
                 navbar.style.width = "100%";
