@@ -12,6 +12,10 @@
     display: inline-block;
 }
 
+.small_card:hover {
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.66);
+}
+
 .large_card {
     position: relative;
     top: 0;
