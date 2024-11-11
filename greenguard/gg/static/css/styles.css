@@ -117,5 +117,5 @@
     margin-left: 30px;
     background-color: aqua;
     text-wrap: wrap;
-    overflow: wrap;
+    text-overflow: ellipsis;
 }
