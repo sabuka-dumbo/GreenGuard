@@ -7,6 +7,7 @@
 
 
 {% block links %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 {% endblock %}
 
 
@@ -14,7 +15,20 @@
 
 
 {% block body %}
+    <div class="container">
+        <div class="small_card">
+            <img class="" src="{% static 'pics/light_bulb.svg' %}">
+        </div>
+        <div class="small_card"></div>
 
+        <br>
+    </div>
+
+    <div class="container">
+        <div class="large_card"></div>
+
+        <br>
+    </div>
 
     <script src="{% static 'js/index.js' %}"></script>
 {% endblock %}
