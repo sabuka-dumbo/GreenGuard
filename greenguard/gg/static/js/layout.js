@@ -30,13 +30,13 @@ burgermenu.addEventListener("click", function() {
                 span1.style.animation = '';
                 span2.style.animation = '';
                 span3.style.animation = '';
+                navbar2.style.animation = '';
                 span1.style.top = "20px";
                 span2.style.opacity = "0";
                 span3.style.top = '-20px';
                 span1.style.rotate = "45deg";
                 span3.style.rotate = "-45deg";
                 navbar2.style.display = "block";
-                navbar2.
                 is_ready = true;
                 open = true;
             })
@@ -45,6 +45,8 @@ burgermenu.addEventListener("click", function() {
             span2.style.animation = "span2_close ease 1s";
             span3.style.animation = "span3_close ease 1s";
             navbar.style.animation = "navbar_close ease 1s";
+            navbar2.style.display = "block";
+            navbar2.style.animation = "navbar2_close ease 1s"
 
             navbar.addEventListener("animationend", function() {
                 navbar.style.width = '';
@@ -54,11 +56,13 @@ burgermenu.addEventListener("click", function() {
                 span1.style.animation = '';
                 span2.style.animation = '';
                 span3.style.animation = '';
+                navbar2.style.animation = '';
                 span1.style.top = "0px";
                 span2.style.opacity = "1";
                 span3.style.top = '0px';
                 span1.style.rotate = "0deg";
                 span3.style.rotate = "0deg";
+                navbar2.style.display = '';
                 is_ready = true;
                 open = false;
             })
