@@ -10,18 +10,20 @@
     margin-left: 0;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.281);
+    display: inline;
 }
 
 .large_card {
     position: relative;
     top: 0;
     left: 0;
-    width: 75%;
-    height: calc(400px + 50px);
+    width: 400px;
+    height: 450px;
     margin-left: 5%;
     margin-top: 50px;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.281);
+    display: inline-block;
 }
 
 .small_card_img {
