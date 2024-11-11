@@ -10,7 +10,6 @@ let is_ready = true;
 let open = false;
 
 burgermenu.addEventListener("click", function() {
-    navbar2.style.display = "block";
 
     if (is_ready == true) {
         is_ready = false;
