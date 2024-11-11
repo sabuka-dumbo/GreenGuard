@@ -45,15 +45,16 @@
 }
 
 .small_card_texts {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 220px;
     height: 150px;
-    background-color: aqua;
     display: inline-block;
     padding: 0;
     margin: 0;
+    margin-top: 50px;
+    margin-left: 180px;
 }
 
 .small_card_text {
@@ -63,4 +64,6 @@
     width: 100%;
     height: max-content;
     font-family: "Itim";
+    margin: 0;
+    padding: 0;
 }
