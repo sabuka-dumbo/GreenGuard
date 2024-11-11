@@ -3,6 +3,7 @@ const burgermenu = document.getElementById("burgermenu");
 const span1 = document.getElementById("span1");
 const span2 = document.getElementById("span2");
 const span3 = document.getElementById("span3");
+const navbar2 = document.getElementById("navbar-main-part");
 
 let is_ready = true;
 
@@ -17,6 +18,8 @@ burgermenu.addEventListener("click", function() {
             span2.style.animation = "span2_open ease 1s";
             span3.style.animation = "span3_open ease 1s";
             navbar.style.animation = "navbar_open ease 1s";
+            navbar2.style.display = "block";
+            navbar2.style.animation = "navbar2_open ease 0.5s"
 
             navbar.addEventListener("animationend", function() {
                 navbar.style.width = "100%";
