@@ -118,5 +118,5 @@
     background-color: aqua;
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space: nowrap;
+    white-space: wrap;
 }
