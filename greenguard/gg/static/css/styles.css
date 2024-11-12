@@ -235,6 +235,12 @@
     color: gray;
 }
 
+.usage_submit {
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+
 
 
 
