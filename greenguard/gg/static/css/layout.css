@@ -195,6 +195,7 @@
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.432);
     border-radius: 20px;
     margin-top: 15px;
+    display: none;
 }
 
 .notify_text {
@@ -430,5 +431,25 @@
 
     70% {
         color: #DA8359;
+    }
+}
+
+@keyframes notify_div_animation_open {
+    0% {
+        top: -150%;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+@keyframes notify_div_animation_close {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: -150%;
     }
 }

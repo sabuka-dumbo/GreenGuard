@@ -78,5 +78,5 @@ const notify_text = document.getElementById("notify_text");
 const notify_icon = document.getElementById("notify_icon");
 
 function notification(text) {
-    
+    notify_text
 }
