@@ -140,7 +140,7 @@
     width: 850px;
     height: 400px;
     background-color: #FFFFFF;
-    display: flex;
+    display: flexbox;
     justify-self: center;
     margin-left: 50px;
     margin-top: 50px;
