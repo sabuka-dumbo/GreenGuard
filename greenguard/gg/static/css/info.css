@@ -89,11 +89,11 @@
 
 .card1-image{
     display: block;
-    width: 200px;
-    height: 100px;
+    width: 400px;
+    height: 150px;
     border-radius: 30px 30px 30px 10px;
     margin-top: 10px;
-    margin-right: 5%;
+    margin-left: 50%;
     padding: 60px;
     background-color: rgba(128, 128, 128, 0.719);
     font-family: 'Itim', sans-serif;
