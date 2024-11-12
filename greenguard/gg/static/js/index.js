@@ -34,3 +34,30 @@ usage_name.addEventListener("focusout", function() {
         })
     }
 })
+
+const usage_value = document.getElementById("usage_value");
+const usage_value_label = document.getElementById("usage_value_label");
+
+usage_value.addEventListener("focus", function() {
+    usage_value_label.style.animation = "usage_value_label_animation_open 0.3s ease";
+
+    usage_value_label.addEventListener("animationend", function() {
+        usage_value_label.style.animation = '';
+        usage_value_label.style.top = "5px";
+        usage_value_label.style.left = "380px";
+        usage_value_label.style.fontSize = "15px";
+    })
+})
+
+usage_value.addEventListener("focusout", function() {
+    if (usage_value.value == '') {
+        usage_value_label.style.animation = "usage_value_label_animation_close 0.3s ease";
+
+        usage_value_label.addEventListener("animationend", function() {
+            usage_value_label.style.animation = '';
+            usage_value_label.style.top = '';
+            usage_value_label.style.left = '';
+            usage_value_label.style.fontSize = '';
+        })
+    }
+})

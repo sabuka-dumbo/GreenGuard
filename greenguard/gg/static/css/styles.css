@@ -230,11 +230,10 @@
 .usage_value_label {
     position: absolute;
     top: 31px;
-    left: 150px;
+    left: 385px;
     font-family: "Itim";
     color: gray;
 }
-
 
 
 
@@ -288,6 +287,30 @@
     100% {
         top: 31px;
         left: 150px;
+        font-size: 20px;
+    }
+}
+
+@keyframes usage_value_label_animation_open {
+    0% {}
+
+    100% {
+        top: 5px;
+        left: 380px;
+        font-size: 15px;
+    }
+}
+
+@keyframes usage_value_label_animation_close {
+    0% {
+        top: 5px;
+        left: 380px;
+        font-size: 15px;
+    }
+
+    100% {
+        top: 31px;
+        left: 385px;
         font-size: 20px;
     }
 }
