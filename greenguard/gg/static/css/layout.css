@@ -178,6 +178,26 @@
     display: block;
 }
 
+.notify_div {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    height: max-content;
+    background-color: bisque;
+    z-index: 1000000000000000;
+}
+
+.notify_text {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 50vw;
+    height: max-content;
+    white-space: wrap;
+}
+
 
 
 
