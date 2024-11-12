@@ -265,6 +265,16 @@
     border: 2px solid #DA8359;
 }
 
+.sorting_list {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    background-color: aqua;
+    display: block;
+}
+
 
 
 
