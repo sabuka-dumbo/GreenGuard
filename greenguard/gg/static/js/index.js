@@ -23,9 +23,14 @@ usage_name.addEventListener("focus", function() {
 })
 
 usage_name.addEventListener("focusout", function() {
-    if (usage_name.value = '') {
-        console.log('ff')
-    } else {
-        console.log("gg")
+    if (usage_name.value == '') {
+        usage_name_label.style.animation = "usage_name_label_animation_close 0.3s ease";
+
+        usage_name_label.addEventListener("animationend", function() {
+            usage_name_label.style.animation = '';
+            usage_name_label.style.top = '';
+            usage_name_label.style.left = '';
+            usage_name_label.style.fontSize = '';
+        })
     }
 })
