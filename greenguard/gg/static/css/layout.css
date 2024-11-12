@@ -195,8 +195,9 @@
     border-radius: 20px;
     margin-top: 15px;
     display: none;
-    border-bottom: 5px solid transparent;
-  border-image: linear-gradient(to right, red, green) 1;
+    border-bottom: 5px solid transparent; 
+    animation: borderShrink 2s ease-in-out infinite; 
+    border-image-slice: 1;
 }
 
 .notify_text {
@@ -457,9 +458,9 @@
 
 @keyframes borderShrink {
     0% {
-        border-width: 100px;
+      border-image: linear-gradient(to right, #ff5500 100%, #ECDFCC 0%) 1;
     }
     100% {
-        border-width: 0;
+      border-image: linear-gradient(to right, #ff5500 0%, #ECDFCC 100%) 1;
     }
-}
+  }
