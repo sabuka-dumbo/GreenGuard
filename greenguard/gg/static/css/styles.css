@@ -155,6 +155,7 @@
     height: max-content;
     display: block;
     padding: 15px;
+    padding-top: 25px;
 }
 
 .usage_type {
@@ -200,16 +201,11 @@
 
 .usage_name_label {
     position: absolute;
-    top: 23px;
+    top: 31px;
     left: 150px;
     font-family: "Itim";
     color: gray;
 }
-
-.usage_name_label:has(.usage_name:focus) {
-    color: aqua;
-}
-
 
 
 
@@ -241,5 +237,28 @@
 
     100% {
         box-shadow: 0;
+    }
+}
+
+@keyframes usage_name_label_animation_open {
+    0% {}
+
+    100% {
+        top: 5px;
+        left: 145px;
+        font-size: 15px;
+    }
+}
+
+@keyframes usage_name_label_animation_close {
+    0% {
+        top: 5px;
+        left: 145px;
+        font-size: 15px;
+    }
+
+    100% {
+        top: 31px;
+        left: 150px;
     }
 }
