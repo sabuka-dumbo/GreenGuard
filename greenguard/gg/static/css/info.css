@@ -204,3 +204,26 @@
     font-family: 'Itim', sans-serif;
     font-size: 20px;
 }
+
+.carousel-container{
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    background-color: rgb(184, 184, 184);
+    padding: 10px;
+}
+.carousel{
+    display: flex;
+    animation: scroll 10s linear infinite;
+}
+.carousel-item{
+    padding: 10px 20px;
+    font-size: 1.7rem;
+    color: white;
+    white-space: nowrap;
+    font-family: 'Itim', sans-serif;
+}
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
