@@ -151,10 +151,10 @@
     position: relative;
     top: 0;
     left: 0;
-    width: 100%;
+    width: calc(100% - 20px);
     height: max-content;
     display: block;
-    background-color: aqua;
+    padding: 15px;
 }
 
 .usage_type {
@@ -171,9 +171,11 @@
     text-align: center;
     margin: 0;
     padding: 0;
-    margin-top: 20px;
-    margin-left: 20px;
     display: inline-block;
+}
+
+.usage_type:focus {
+    animation: usage_type_animation 1s ease;
 }
 
 
@@ -194,5 +196,19 @@
     100% {
         transform: scale(1.02);
         box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.432);
+    }
+}
+
+@keyframes usage_type_animation {
+    0% {
+        box-shadow: 0;
+    }
+
+    50% {
+        box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.281);
+    }
+
+    100% {
+        box-shadow: 0;
     }
 }
