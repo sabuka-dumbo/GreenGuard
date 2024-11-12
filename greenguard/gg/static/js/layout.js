@@ -78,5 +78,23 @@ const notify_text = document.getElementById("notify_text");
 const notify_icon = document.getElementById("notify_icon");
 
 function notification(text) {
-    notify_text
+    notify_text.value = text;
+
+    notify_div.style.display = "block";
+    notify_div.style.animation = "notify_div_animation_open 1s ease";
+
+    notify_div.addEventListener("animationend", function() {
+        notify_div.style.animation = '';
+
+        setInterval(() => {
+            notify_div.style.animation = "notify_div_animation_close 1s ease";
+
+            notify_div.addEventListener("animationend", function() {
+                notify_div.style.animation = '';
+                notify_div.style.display = '';
+            })
+        }, 3500);
+    })
 }
+
+notification("Love");
