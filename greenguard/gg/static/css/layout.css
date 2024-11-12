@@ -228,6 +228,7 @@
     color: #DA8359;
     display: flexbox;
     justify-self: center;
+    cursor: pointer;
 }
 
 
