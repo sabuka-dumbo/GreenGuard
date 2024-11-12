@@ -225,8 +225,8 @@
     margin-left: 20px;
     margin-right: 10px;
     color: #DA8359;
-    display: flex;
-    
+    display: flexbox;
+    align-items: center;
 }
 
 
