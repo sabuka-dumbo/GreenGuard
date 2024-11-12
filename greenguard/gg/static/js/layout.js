@@ -69,3 +69,14 @@ burgermenu.addEventListener("click", function() {
         }
     }
 })
+
+
+
+
+const notify_div = document.getElementById("notify_div");
+const notify_text = document.getElementById("notify_text");
+const notify_icon = document.getElementById("notify_icon");
+
+function notification(text) {
+    
+}
