@@ -275,6 +275,20 @@
     display: block;
 }
 
+.sl_usage {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: max-content;
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+    margin-left: 15px;
+    color: gray;
+    font-family: "Itim";
+}
+
 
 
 
