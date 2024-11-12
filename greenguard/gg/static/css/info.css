@@ -116,7 +116,8 @@
 }
 
 .card1-button{
-    display: inline;
+    display: block;
+    width: 20px;
     padding: 10px 20px;
     background-color: white;
     color: black;
