@@ -279,7 +279,7 @@
     position: relative;
     top: 0;
     left: 0;
-    width: 140px;
+    width: 130px;
     height: max-content;
     padding: 0;
     margin: 0;
@@ -287,6 +287,37 @@
     margin-left: 15px;
     color: gray;
     font-family: "Itim";
+    display: inline-block;
+}
+
+.sl_date {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: max-content;
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+    margin-left: 15px;
+    color: gray;
+    font-family: "Itim";
+    display: inline-block;
+}
+
+.sl_title {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: max-content;
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+    margin-left: 15px;
+    color: gray;
+    font-family: "Itim";
+    display: inline-block;
 }
 
 
