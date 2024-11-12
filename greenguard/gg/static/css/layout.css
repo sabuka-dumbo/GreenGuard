@@ -189,7 +189,7 @@
     z-index: 1000000000000000;
     padding-top: 20px;
     padding-bottom: 30px;
-    padding-right: 20px;
+    padding-right: 50px;
     padding-left: 20px;
     border-bottom: #DA8359 4px solid;
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.432);
@@ -211,9 +211,10 @@
 }
 
 .notify_icon {
-    position: relative;
-    top: 0;
-    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
     max-width: 50vw;
     height: max-content;
     word-break: break-all;
@@ -226,7 +227,7 @@
     margin-right: 10px;
     color: #DA8359;
     display: flexbox;
-    align-items: center;
+    justify-self: center;
 }
 
 
