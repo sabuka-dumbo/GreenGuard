@@ -241,13 +241,28 @@
     right: 0;
     padding: 0;
     margin: 0;
-    height: 30px;
+    height: 40px;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-right: 15px;
     width: max-content;
+    border: none;
+    outline: none;
+    background-color: #A5B68D;
+    border-radius: 5px;
+    color: white;
+}
+
+.description_line {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+    width: calc(100% - 0px);
+    display: block;
+    border: 2px solid #DA8359;
 }
 
 
