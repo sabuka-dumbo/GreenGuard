@@ -196,6 +196,7 @@
     border-radius: 20px;
     margin-top: 15px;
     display: none;
+    animation: borderShrink ease 2s;
 }
 
 .notify_text {
@@ -451,5 +452,14 @@
 
     100% {
         top: -150%;
+    }
+}
+
+@keyframes borderShrink {
+    0% {
+        border-bottom-width: 100px;
+    }
+    100% {
+        border-bottom-width: 0;
     }
 }
