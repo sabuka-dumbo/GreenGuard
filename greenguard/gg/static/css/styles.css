@@ -178,6 +178,38 @@
     animation: usage_type_animation 1s ease;
 }
 
+.usage_name {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 190px;
+    height: 30px;
+    background-color: #ECDFCC;
+    font-family: "Itim";
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.usage_name_label {
+    position: absolute;
+    top: 23px;
+    left: 150px;
+    font-family: "Itim";
+    color: gray;
+}
+
+.usage_name:focus + usage_name_label {
+    color: aqua;
+}
+
 
 
 
@@ -205,7 +237,7 @@
     }
 
     50% {
-        box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.281);
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.121);
     }
 
     100% {
