@@ -206,7 +206,7 @@
     color: gray;
 }
 
-.usage_name:focus + usage_name_label {
+.usage_name_label:has(.usage_name:focus) {
     color: aqua;
 }
 
