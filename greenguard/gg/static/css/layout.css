@@ -191,12 +191,10 @@
     padding-bottom: 30px;
     padding-right: 50px;
     padding-left: 20px;
-    border-bottom: #DA8359 4px solid;
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.432);
     border-radius: 20px;
     margin-top: 15px;
     display: none;
-    animation: borderShrink ease 2s;
 }
 
 .notify_text {
