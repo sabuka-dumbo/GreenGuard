@@ -133,6 +133,17 @@
     height: max-content;
 }
 
+.description_card {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 850px;
+    height: 400px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-self: center;
+}
+
 
 
 
