@@ -69,9 +69,16 @@
 }
 
 
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    padding: 2em;
+}
+
 
 .card1{
-    width: 800px;
+    width: 700px;
     height: 400px;
     padding: 30px;
     background-color: #ECDFCC;
@@ -89,6 +96,8 @@
     margin-right: 5%;
     padding: 60px;
     background-color: rgba(128, 128, 128, 0.719);
+    font-family: 'Itim', sans-serif;
+    font-size: 20px;
 }
 
 .card1-title{
@@ -116,12 +125,78 @@
     transition: background-color 0.3s ease;
     font-family: 'Itim', sans-serif;
     font-size: 20px;
-    margin-left: 75%;
+    margin-left: 65%;
 }
 .card1-button:hover{
     background-color: #A5B68D;
 }
 
 .card2{
+    width: 380px;
+    height: 400px;
+    padding: 30px;
+    background-color: #ECDFCC;
+    border-radius: 10px 70px 10px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-left: 3%;
+}
+
+.card2-text{
+    font-family: 'Itim', sans-serif;
+    font-size: 30px;
+}
+
+.card3{
+    width: 700px;
+    height: 200x;
+    padding: 30px;
+    background-color: #ECDFCC;
+    border-radius: 10px 10px 10px 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-left: 3%;
+}
+
+.card3-title{
+    font-size: 30px;
+    font-family: 'Itim', sans-serif;
+    color: black;
+}
+.card3-text{
+    font-size: 20px;
+    font-family: 'Itim', sans-serif;
+    color: black;
+}
+.card3-button{
+    display: inline;
+    padding: 10px 20px;
     background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-family: 'Itim', sans-serif;
+    font-size: 20px;
+    margin-left: 65%;
+}
+
+.card4{
+    width: 400px;
+    height: 200x;
+    padding: 5px;
+    background-color: pink;
+    border-radius: 10px 10px 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-left: 3%;
+}
+.card4-image{
+    display: block;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 5%;
+    padding: 60px;
+    background-color: rgba(128, 128, 128, 0.719);
+    font-family: 'Itim', sans-serif;
+    font-size: 20px;
 }
