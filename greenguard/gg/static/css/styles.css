@@ -271,7 +271,6 @@
     left: 0;
     width: 100%;
     height: max-content;
-    background-color: aqua;
     display: block;
 }
 
@@ -283,7 +282,6 @@
     height: max-content;
     padding: 0;
     margin: 0;
-    background-color: #FFFFFF;
     margin-left: 15px;
     color: gray;
     font-family: "Itim";
@@ -298,8 +296,7 @@
     height: max-content;
     padding: 0;
     margin: 0;
-    background-color: #FFFFFF;
-    margin-left: 15px;
+    margin-left: 10px;
     color: gray;
     font-family: "Itim";
     display: inline-block;
@@ -313,8 +310,35 @@
     height: max-content;
     padding: 0;
     margin: 0;
-    background-color: #FFFFFF;
-    margin-left: 15px;
+    margin-left: 10px;
+    color: gray;
+    font-family: "Itim";
+    display: inline-block;
+}
+
+.sl_value {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: max-content;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+    color: gray;
+    font-family: "Itim";
+    display: inline-block;
+}
+
+.sl_member {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: max-content;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
     color: gray;
     font-family: "Itim";
     display: inline-block;
