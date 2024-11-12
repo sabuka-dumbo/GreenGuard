@@ -142,8 +142,39 @@
     background-color: #FFFFFF;
     display: flex;
     justify-self: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.281); 
 }
 
+.description_card_inputs {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    display: block;
+    background-color: aqua;
+}
+
+.usage_type {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 40px;
+    background-color: #ECDFCC;
+    font-family: "Itim";
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
 
 
 
