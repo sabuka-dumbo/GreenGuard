@@ -207,6 +207,34 @@
     color: gray;
 }
 
+.usage_value {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 190px;
+    height: 30px;
+    background-color: #ECDFCC;
+    font-family: "Itim";
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.usage_value_label {
+    position: absolute;
+    top: 31px;
+    left: 150px;
+    font-family: "Itim";
+    color: gray;
+}
+
 
 
 
