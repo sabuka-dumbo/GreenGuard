@@ -397,12 +397,12 @@
 
     /* Carousel */
     .carousel {
-        animation: scroll 15s linear infinite; /* Accelerer le carousel pour les téléphones */
+        animation: scroll 15s linear infinite; /* Accelerer le carousel pour les telephones */
     }
 
     /* About Page */
     .about-page-title {
-        font-size: 28px;  /* Reduire la taille du titre pour l'écran du téléphone */
+        font-size: 28px;  /* Reduire la taille du titre pour l'ecran du telephone */
         margin-left: 5%;
     }
 
@@ -417,14 +417,14 @@
     }
 
     .help-card1-title, .help-card2-title, .help-card3-title {
-        font-size: 22px;  /* Réduire la taille des titres */
+        font-size: 22px;  /* Reduire la taille des titres */
     }
 
     .help-card1-text, .help-card2-text, .help-card3-text {
-        font-size: 16px;  /* Réduire la taille du texte dans les cartes d'aide */
+        font-size: 16px;  /* Reduire la taille du texte dans les cartes d'aide */
     }
 
-    /* Réduire la taille des textes dans les sections supplémentaires */
+    /* Reduire la taille des textes dans les sections supplémentaires */
     .help-card4-text {
         font-size: 22px;
     }
