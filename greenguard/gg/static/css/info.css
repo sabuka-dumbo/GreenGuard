@@ -7,7 +7,7 @@
 
 .main{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: center;
     background-color: #FCFAEE;
@@ -227,3 +227,18 @@
     0% { transform: translateX(0); }
     100% { transform: translateX(-100%); }
 }
+.about-page{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #FCFAEE;
+}
+.about-page-title{
+    font-size: 35px;
+    font-weight: lighter;
+}
+.help-card{
+    background-color: #FCFAEE;
+}
+
