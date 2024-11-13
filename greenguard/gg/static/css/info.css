@@ -78,7 +78,7 @@
 
 
 .card1{
-    width: 800px;
+    width: 750px;
     height: 400px;
     padding: 30px;
     background-color: #ECDFCC;
@@ -148,7 +148,7 @@
 }
 
 .card3{
-    width: 800px;
+    width: 750px;
     height: 200x;
     padding: 30px;
     background-color: #ECDFCC;
@@ -178,6 +178,9 @@
     font-family: 'Itim', sans-serif;
     font-size: 20px;
     margin-left: 65%;
+}
+.card3-button:hover{
+    background-color: #A5B68D;
 }
 
 .card4{
@@ -240,7 +243,7 @@
     font-family: 'Itim', sans-serif;
     margin-left: 3%;
     margin-top: 2%;
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 .help-cards-container{
@@ -266,11 +269,12 @@
 .help-card1-title{
     font-size: 35px;
     font-family: 'Itim', sans-serif;
-    font-weight: bold;
+    font-weight: 500;
 }
 .help-card1-text{
     font-size: 28px;
     margin-top: 3%;
+    font-weight: 200;
 }
 .help-card2{
     width: 400px;
@@ -312,4 +316,28 @@
     font-size: 40px;
 }
 
+.register-page{
+    background-color: #ECDFCC;
+    text-align: center;
+    padding: 30px;
+    margin-top: 4%;
+}
+.register-page-title{
+    font-size: 40px;
+    font-family: 'Itim', sans-serif;
+    padding-bottom: 50px;
+}
+.register-page-button{
+    padding: 10px 20px;
+    background-color: #81b35dd0;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-family: 'Itim', sans-serif;
+    font-size: 20px;
+}
 
+.register-page-button:hover{
+    background-color: #A5B68D;
+}
