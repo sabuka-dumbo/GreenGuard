@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Itim', sans-serif;
 }
 
 .main{
@@ -26,7 +26,7 @@
 .logo{
     width: 200px;
     cursor: pointer;
-    font-size: 35px;
+    font-size: 30px;
     left: 0%;
     color: #A5B68D;
     font-family: 'Itim', sans-serif;
@@ -68,12 +68,12 @@
     color:#5a9f46;
 }
 
-
-.cards-container{
+.cards-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3em;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 1em;
     padding: 2em;
+    justify-items: center;
 }
 
 
@@ -117,8 +117,7 @@
 }
 
 .card1-button{
-    display: block;
-    width: 25%;
+    display: inline;
     padding: 10px 20px;
     background-color: white;
     color: black;
@@ -128,17 +127,15 @@
     font-family: 'Itim', sans-serif;
     font-size: 20px;
     margin-left: 65%;
-    margin-bottom: 2%;
 }
 .card1-button:hover{
     background-color: #A5B68D;
 }
 
 .card2{
-    width: 600px;
+    width: 380px;
     height: 400px;
     padding: 30px;
-    margin-left: 10px;
     background-color: #ECDFCC;
     border-radius: 10px 70px 10px 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -147,12 +144,12 @@
 
 .card2-text{
     font-family: 'Itim', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .card3{
     width: 800px;
-    height: 300x;
+    height: 200x;
     padding: 30px;
     background-color: #ECDFCC;
     border-radius: 10px 10px 10px 70px;
@@ -184,9 +181,9 @@
 }
 
 .card4{
-    width: 600px;
-    height: 300px;
-    padding: 5px;
+    width: 380px;
+    height: 200x;
+    padding: 30px;
     background-color: pink;
     border-radius: 10px 10px 70px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -205,6 +202,7 @@
     font-size: 20px;
 }
 
+
 .carousel-container{
     overflow: hidden;
     width: 100%;
@@ -214,7 +212,7 @@
 }
 .carousel{
     display: flex;
-    animation: scroll 10s linear infinite;
+    animation: scroll 20s linear infinite;
 }
 .carousel-item{
     padding: 10px 20px;
@@ -224,21 +222,94 @@
     font-family: 'Itim', sans-serif;
 }
 @keyframes scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-100%); }
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
 }
+
 .about-page{
     width: 100%;
     height: 100%;
+    padding: 10px;
     background-size: cover;
     background-position: center;
     background-color: #FCFAEE;
+    
 }
 .about-page-title{
-    font-size: 35px;
+    font-size: 40px;
+    font-family: 'Itim', sans-serif;
+    margin-left: 3%;
+    margin-top: 2%;
     font-weight: lighter;
 }
-.help-card{
-    background-color: #FCFAEE;
+
+.help-cards-container{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1em;
+    padding: 2em;
+    justify-items: center;
+    
 }
+
+.help-card1{
+    width: 650px;
+    height: 300px;
+    padding: 30px;
+    background-color:#ECDFCC;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.help-card1-title{
+    font-size: 35px;
+    font-family: 'Itim', sans-serif;
+    font-weight: bold;
+}
+.help-card1-text{
+    font-size: 28px;
+    margin-top: 3%;
+}
+.help-card2{
+    width: 400px;
+    height: 248px;
+    padding: 30px;
+    background-color: grey;
+    border-radius: 20px 20px 0px 0px;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.help-card3{
+    width: 650px;
+    height: 200px;
+    padding: 0px;
+    background-color:#ECDFCC;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.help-card3 video{
+    width:90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 1.5%;
+}
+.help-card4{
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    background-color:#81b35dd0;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-left: 3%;
+    margin-top: -15%;
+}
+.help-card4-text{
+    font-size: 40px;
+}
+
 
