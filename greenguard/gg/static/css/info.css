@@ -360,7 +360,7 @@
     }
 
     .logo {
-        font-size: 28px;  /* Réduire la taille du logo */
+        font-size: 28px;  /* Reduire la taille du logo */
     }
 
     .navbar ul {
@@ -386,7 +386,7 @@
     }
 
     .card1, .card2, .card3, .card4 {
-        width: 100%;  /* Les cartes prennent toute la largeur de l'écran */
+        width: 100%;  /* Les cartes prennent toute la largeur de l'ecran */
         margin: 10px 0;
     }
 
@@ -397,12 +397,12 @@
 
     /* Carousel */
     .carousel {
-        animation: scroll 15s linear infinite; /* Accélérer le carousel pour les téléphones */
+        animation: scroll 15s linear infinite; /* Accelerer le carousel pour les téléphones */
     }
 
     /* About Page */
     .about-page-title {
-        font-size: 28px;  /* Réduire la taille du titre pour l'écran du téléphone */
+        font-size: 28px;  /* Reduire la taille du titre pour l'écran du téléphone */
         margin-left: 5%;
     }
 
