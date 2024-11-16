@@ -7,7 +7,7 @@ from .models import *
 def index(request):
     list_of_usage = Usage.objects.all()
     return render(request, "index.html", {
-        "list_of_usage": list_of_usage
+        "sorted_list": list_of_usage
     })
 
 def register(request):
