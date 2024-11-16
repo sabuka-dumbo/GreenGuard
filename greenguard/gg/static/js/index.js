@@ -66,48 +66,48 @@ usage_value.addEventListener("focusout", function() {
 
 const ctx = document.getElementById('EnergyChart');
 
-const data = {
+const EnergyData = {
     labels: [
-      'Red',
-      'Blue',
-      'Yellow'
+        'First',
+        'Second',
+        'Third'
     ],
     datasets: [{
       label: 'My First Dataset',
       data: [300, 50, 100],
       backgroundColor: [
-        'rgb(255, 99, 132)',
-        'rgb(54, 162, 235)',
-        'rgb(255, 205, 86)'
+        '#FFF9B2',
+        '#CA700C',
+        '#FF8888'
       ],
     }]
   };
 
 new Chart(ctx, {
     type: 'doughnut',
-    data: data,
+    data: EnergyData,
 });
 
 const ctx2 = document.getElementById('WaterChart');
 
 const WaterData = {
     labels: [
-      'Red',
-      'Blue',
-      'Yellow'
+      'First',
+      'Second',
+      'Third'
     ],
     datasets: [{
       label: 'My First Dataset',
       data: [300, 50, 100],
       backgroundColor: [
-        'rgb(255, 99, 132)',
-        'rgb(54, 162, 235)',
-        'rgb(255, 205, 86)'
+        '#4C9DEC',
+        '#F4DB99',
+        '#B8FFFB'
       ],
     }]
   };
 
-new Chart(ctx, {
+new Chart(ctx2, {
     type: 'doughnut',
-    data: data,
+    data: WaterData,
 });
