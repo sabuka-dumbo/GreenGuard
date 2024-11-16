@@ -1,10 +1,14 @@
 from django.shortcuts import render
 from django.urls import reverse
 from django.http import HttpResponseRedirect
+from .models import *
 
 # Create your views here.
 def index(request):
-    return render(request, "index.html")
+    list_of_usage = Usage.objects.all()
+    return render(request, "index.html", {
+        "list_of_usage": list_of_usage
+    })
 
 def register(request):
     return render(request, "register.html")
