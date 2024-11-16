@@ -7,4 +7,5 @@ class User(AbstractUser):
 
 class Usage(models.Model):
     usage_type = models.CharField(max_length=150)
-    
+    date = models.DateField()
+    reason = models.CharField()
