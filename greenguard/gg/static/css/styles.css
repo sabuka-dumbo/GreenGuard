@@ -306,7 +306,7 @@
     position: relative;
     top: 0;
     left: 0;
-    width: 160px;
+    width: 200px;
     height: max-content;
     padding: 0;
     margin: 0;
@@ -320,7 +320,7 @@
     position: relative;
     top: 0;
     left: 0;
-    width: 160px;
+    width: 120px;
     height: max-content;
     padding: 0;
     margin: 0;
@@ -334,7 +334,7 @@
     position: relative;
     top: 0;
     left: 0;
-    width: 150px;
+    width: 130px;
     height: max-content;
     padding: 0;
     margin: 0;
@@ -350,7 +350,8 @@
     left: 0;
     width: calc(100% - 30px);
     border: 2px solid #707070;
-    margin-left: 18px;
+    margin-left: 15px;
+    border-radius: 4px;
 }
 
 
