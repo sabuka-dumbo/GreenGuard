@@ -260,14 +260,14 @@
     top: 0;
     left: 0;
     margin-top: 10px;
-    width: calc(100% - 0px);
+    width: calc(100% - 10px);
     display: block;
     border: 2px solid #DA8359;
 }
 
 .sorting_list {
     position: relative;
-    top: 0;
+    top: -10px;
     left: 0;
     width: 100%;
     height: max-content;
