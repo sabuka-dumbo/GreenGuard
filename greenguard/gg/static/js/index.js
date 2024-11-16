@@ -76,8 +76,8 @@ const EnergyData = {
       label: 'My First Dataset',
       data: [300, 50, 100],
       backgroundColor: [
-        '#FFF9B2',
-        '#CA700C',
+        '#D8D17C',
+        '#AEFF88',
         '#FF8888'
       ],
     }]
