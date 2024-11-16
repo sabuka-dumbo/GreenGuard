@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'Itim', sans-serif;
 }
-
+html, body{
+    
+}
 .main{
     width: 100vw;
     height: 100%;
