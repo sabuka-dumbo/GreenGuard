@@ -366,6 +366,25 @@
     margin-right: 50px;
 }
 
+.Recycle_card {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    background-color: aliceblue;
+    margin-top: 50px;
+}
+
+.recycle_cards {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 450px;
+    background-color: #FFFFFF;
+}
+
 
 
 /* responsive */
