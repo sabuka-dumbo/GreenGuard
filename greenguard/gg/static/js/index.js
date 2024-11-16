@@ -66,7 +66,7 @@ usage_value.addEventListener("focusout", function() {
 
 
 
-const ctx = document.getElementById('myChart');
+const ctx = document.getElementById('EnergyChart');
 
 const data = {
     labels: [
