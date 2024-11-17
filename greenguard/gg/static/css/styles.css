@@ -474,15 +474,16 @@
 
 
 /* responsive */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
     .cards_main_holder {
         padding-left: 10px;
         padding-right: 10px;
     }
 
-    .cards_holder {
+}
 
-    }
+@media screen and (max-width: 1170px) {
+
 }
 
 /* animations */

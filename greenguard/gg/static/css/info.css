@@ -411,13 +411,13 @@ html, body{
 
     /* About Page */
     .about-page-title {
-        font-size: 28px;  /* Reduire la taille du titre pour l'ecran du telephone */
+        font-size: 28px; 
         margin-left: 5%;
     }
 
     /* Help Cards */
     .help-cards-container {
-        grid-template-columns: 1fr; /* Une seule colonne pour les cartes d'aide */
+        grid-template-columns: 1fr; 
     }
 
     .help-card1, .help-card2, .help-card3, .help-card4 {
@@ -426,7 +426,7 @@ html, body{
     }
 
     .help-card1-title, .help-card2-title, .help-card3-title {
-        font-size: 22px;  /* Reduire la taille des titres */
+        font-size: 22px;  
     }
 
     .help-card1-text {
