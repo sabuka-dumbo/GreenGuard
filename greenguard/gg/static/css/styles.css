@@ -374,8 +374,9 @@
     height: max-content;
     background-color: rgb(90, 156, 214);
     margin-top: 50px;
-    display: flex;
+    display: grid;
     justify-items: center;
+    align-items: center;
 }
 
 .recycle_card {
