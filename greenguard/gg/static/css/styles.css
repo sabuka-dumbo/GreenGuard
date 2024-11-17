@@ -378,6 +378,13 @@
     align-items: center;
 }
 
+/*
+    850 is width of descr card
+    17px margin-right/left == 90px
+    850-90=760px
+    760/3=2
+*/
+
 .recycle_card {
     position: relative;
     top: 0;
