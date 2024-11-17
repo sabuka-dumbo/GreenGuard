@@ -483,7 +483,9 @@
 }
 
 @media screen and (max-width: 1170px) {
-
+    .cards_holder {
+        margin-right: 20px;
+    }
 }
 
 /* animations */
