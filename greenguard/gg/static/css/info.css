@@ -402,7 +402,7 @@ html, body{
     }
     .card1{
         height: 90%;
-        padding-top: px;
+        padding-top: 5px;
     }
     .card1-image{
         width: 300px;
@@ -411,6 +411,9 @@ html, body{
     .card1-button, .card2-button, .card3-button, .card4-button {
         margin-left: 50%;  
         width: auto;  
+    }
+    .card1-button{
+        
     }
     .card1-title{
         font-size: 30px;

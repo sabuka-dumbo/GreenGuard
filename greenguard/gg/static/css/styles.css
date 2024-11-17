@@ -510,12 +510,13 @@
 @media screen and (max-width: 600px) {
     .small_card_text {
         font-size: 18px;
-        width: 60%;
+        width: calc(100% - 100px - 40px);
     }
 
     .small_card_img {
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
     }
 
     .small_card {
