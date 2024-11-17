@@ -524,6 +524,13 @@
         height: 100px;
         margin-top: 80px;
     }
+
+    .Chart {
+        width: calc(100% - 40px);
+        height: max-content;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 @media screen and (max-width: 380px) {

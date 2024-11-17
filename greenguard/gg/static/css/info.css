@@ -208,7 +208,7 @@ html, body{
     margin-top: 10px;
     margin-right: 5%;
     padding: 60px;
-    background-color: rgba(128, 128, 128, 0.719);
+    background-color: rgb(203, 203, 203);
     font-family: 'Itim', sans-serif;
     font-size: 20px;
 }
@@ -292,7 +292,7 @@ html, body{
     width: 400px;
     height: 248px;
     padding: 30px;
-    background-color: grey;
+    background-color: rgb(203, 203, 203);
     border-radius: 20px 20px 0px 0px;
     margin-left: 3%;
     margin-top: 4%;
@@ -450,7 +450,9 @@ html, body{
     .help-card1-text {
         font-size: 20px; 
     }
-    
+    .help-card2{
+        border-radius: 25px;
+    }
 
     .help-card4-text{
         font-size: 20px;
