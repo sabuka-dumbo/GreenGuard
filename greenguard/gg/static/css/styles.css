@@ -489,7 +489,10 @@
 }
 
 @media screen and (max-width: 1150px) {
-    
+    .tip_card {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 /* animations */
