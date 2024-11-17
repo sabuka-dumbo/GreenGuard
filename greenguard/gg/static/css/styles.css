@@ -374,7 +374,7 @@
     height: max-content;
     background-color: rgb(90, 156, 214);
     margin-top: 50px;
-    display: grid;
+    display: flex;
     justify-items: center;
     align-items: center;
 }
