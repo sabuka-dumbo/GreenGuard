@@ -372,10 +372,9 @@
     left: 0;
     width: 100%;
     height: max-content;
-    background-color: rgb(90, 156, 214);
     margin-top: 50px;
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
 }
 
@@ -388,6 +387,7 @@
     background-color: #FFFFFF;
     display: flexbox;
     margin-right: 5px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.281); 
 }
 
 
