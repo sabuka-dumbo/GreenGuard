@@ -394,8 +394,14 @@ html, body{
         padding: 1em;
     }
     
-    
-
+    .card1{
+        width: 400px;
+        height: 200px;
+    }
+    .card1-image{
+        width: 200px;
+        height: 150px;
+    }
     .card1-button, .card2-button, .card3-button, .card4-button {
         margin-left: 0;  
         width: auto;  
