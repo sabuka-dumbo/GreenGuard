@@ -512,6 +512,14 @@
         font-size: 18px;
         width: 60%;
     }
+
+    .small_card_img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .small_card {
+    }
 }
 
 
