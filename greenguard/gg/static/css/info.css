@@ -19,11 +19,14 @@ html, body{
 .navbar{
     width: 90%;
     margin: auto;
-    padding: 35px 0px 0px 0px;
+    padding: 35px 0 0 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #FCFAEE;
 }
 
 .logo{
@@ -364,18 +367,24 @@ html, body{
     
     /* Navbar */
     .navbar {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
         flex-direction: row;
         align-items: flex-start;
-        padding: 10px;
+        padding: 20px;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
     }
 
     .logo {
-        font-size: 28px;  
+        font-size: 30px;
     }
 
     .navbar ul {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
     }
 
@@ -384,7 +393,7 @@ html, body{
     }
 
     .register, .login {
-        font-size: 16px;
+        font-size: 20px;
         padding: 6px 12px;
         margin-top: 10px; 
     }
@@ -417,6 +426,11 @@ html, body{
         font-size: 30px;
         margin-top: 0px;
     }
+    
+    .card2-text{
+        font-size: 25px;
+    }
+    
     .card3-button{
         margin-left: 52%;
     }
@@ -438,11 +452,13 @@ html, body{
         grid-template-columns: 1fr; 
     }
 
-    .help-card1, .help-card2, .help-card3, .help-card4 {
+    .help-card1, .help-card2, .help-card3 {
         width: 100%;
         margin-top: 20px;
     }
-
+    .help-card1{
+        order: 1;
+    }
     .help-card1-title{
         font-size: 22px;  
     }
@@ -451,15 +467,24 @@ html, body{
         font-size: 20px; 
     }
     .help-card2{
-        border-radius: 25px;
+        height: 35vh;
+        order: 2;
+        border-radius: 25px 25px 0 0;
     }
-
     .help-card4-text{
         font-size: 30px;
     }
     .help-card4{
+        width: 100%;
+        margin-top: 0%;
         padding-top: 3%;
         height: 80%;
-        border-radius: 10px;
+        border-radius: 0 0 10px 10px;
+        order: 3;
     }
+    .help-card3{
+        order: 4;
+    }
+    
+    
 }
