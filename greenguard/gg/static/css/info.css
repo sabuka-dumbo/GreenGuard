@@ -400,12 +400,15 @@ html, body{
         width: 100%;
         margin-right: 2%;
     }
+    .card1{
+        height: ;
+    }
     .card1-image{
         width: 200px;
         height: 50px;
     }
     .card1-button, .card2-button, .card3-button, .card4-button {
-        margin-left: 0;  
+        margin-left: 50%;  
         width: auto;  
     }
     .card1-title{
