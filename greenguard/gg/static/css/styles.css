@@ -488,6 +488,10 @@
     }
 }
 
+@media screen and (max-width: 1150px) {
+    
+}
+
 /* animations */
 @keyframes card_hover {
     0% {
