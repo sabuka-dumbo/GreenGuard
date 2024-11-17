@@ -456,9 +456,9 @@ html, body{
 
     .help-card4-text{
         font-size: 30px;
-        margin-top: 0px;
     }
     .help-card4{
+        padding-top: 3%;
         height: 80%;
         border-radius: 10px;
     }

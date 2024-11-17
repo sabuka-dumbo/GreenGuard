@@ -527,7 +527,7 @@
 
     .Chart {
         width: calc(100% - 40px);
-        height: max-content;
+        height: 200px;
         margin-left: 20px;
         margin-right: 20px;
     }
