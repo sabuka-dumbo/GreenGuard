@@ -369,7 +369,7 @@ html, body{
     }
 
     .logo {
-        font-size: 28px;  /* Reduire la taille du logo */
+        font-size: 28px;  
     }
 
     .navbar ul {
@@ -379,34 +379,34 @@ html, body{
     }
 
     .navbar ul li {
-        margin: 10px 0;  /* Espacement plus grand entre les éléments du menu */
+        margin: 10px 0;  
     }
 
     .register, .login {
         font-size: 16px;
         padding: 6px 12px;
-        margin-top: 10px; /* Ajouter un petit espacement pour éviter la superposition */
+        margin-top: 10px; 
     }
 
     /* Cards Container */
     .cards-container {
-        grid-template-columns: 1fr; /* Une seule colonne pour les cartes */
+        grid-template-columns: 1fr; 
         padding: 1em;
     }
 
     .card1, .card2, .card3, .card4 {
-        width: 100%;  /* Les cartes prennent toute la largeur de l'ecran */
+        width: 100%; 
         margin: 10px 0;
     }
 
     .card1-button, .card2-button, .card3-button, .card4-button {
-        margin-left: 0;  /* Réinitialiser le margin-left pour les boutons */
-        width: auto;  /* Ajuster la largeur des boutons */
+        margin-left: 0;  
+        width: auto;  
     }
 
     /* Carousel */
     .carousel {
-        animation: scroll 15s linear infinite; /* Accelerer le carousel pour les telephones */
+        animation: scroll 15s linear infinite; 
     }
 
     /* About Page */
