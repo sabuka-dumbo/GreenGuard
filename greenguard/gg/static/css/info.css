@@ -408,17 +408,19 @@ html, body{
         width: 300px;
         height: 90px;
     }
-    .card1-button, .card2-button, .card3-button, .card4-button {
-        margin-left: 50%;  
-        width: auto;  
-    }
+    
     .card1-button{
+        margin-left: 50%;
         
     }
     .card1-title{
         font-size: 30px;
-        margin-bottom: 0px;
+        margin-top: 0px;
     }
+    .card3-button{
+        margin-left: 52%;
+    }
+    
 
     /* Carousel */
     .carousel {
