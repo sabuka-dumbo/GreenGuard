@@ -557,6 +557,10 @@
         justify-self: center;
         margin-left: 0;
     }
+
+    .large_card {
+        display: none;
+    }
 }
 
 
