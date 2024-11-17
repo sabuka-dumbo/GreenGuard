@@ -507,6 +507,10 @@
 
 }
 
+@media screen and (max-width: 600px) {
+    
+}
+
 
 /* animations */
 @keyframes card_hover {
