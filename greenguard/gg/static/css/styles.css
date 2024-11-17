@@ -496,8 +496,13 @@
 }
 
 @media screen and (max-width: 1139px) {
-    .small_card {
-        width: 600px;
+    .cards_holder {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .large_card {
+        width: 150px;
     }
 }
 

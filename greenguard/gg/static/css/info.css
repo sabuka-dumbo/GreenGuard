@@ -393,11 +393,8 @@ html, body{
         grid-template-columns: 1fr; 
         padding: 1em;
     }
-
-    .card1, .card2, .card3, .card4 {
-        width: 100%; 
-        margin: 10px 0;
-    }
+    
+    
 
     .card1-button, .card2-button, .card3-button, .card4-button {
         margin-left: 0;  
