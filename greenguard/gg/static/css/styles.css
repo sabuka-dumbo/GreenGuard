@@ -429,6 +429,39 @@
     font-family: "Itim";
 }
 
+.recycle_card_review {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    margin-bottom: 10px;
+}
+
+.recycle_card_review_line {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 80%;
+    border: 2px solid #DA8359;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 4px;
+}
+
+.recycle_card_review_text {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: max-content;
+    padding: 0;
+    margin: 0;
+    font-family: "Itim";
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 
 
 /* responsive */
