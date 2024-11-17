@@ -370,9 +370,10 @@
     position: relative;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 850px;
     height: max-content;
     margin-top: 50px;
+    margin-left: calc((100vw - 850px) / 4);
     display: flex;
     justify-content: center;
     align-items: center;
