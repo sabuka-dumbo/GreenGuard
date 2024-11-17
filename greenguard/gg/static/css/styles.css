@@ -497,6 +497,8 @@
     
     .small_card {
         width: 600px;
+        justify-self: center;
+        display: flexbox;
     }
 }
 
