@@ -371,8 +371,8 @@
     left: 0;
     width: 300px;
     height: 200px;
-    margin-left: 50px;
-    margin-right: 50px;
+    display: flexbox;
+    justify-self: center;
 }
 
 .recycle_cards {
@@ -480,6 +480,24 @@
         padding-right: 10px;
     }
 
+    .cards_holder {
+        margin: 0;
+        margin-right: 20px;
+    }
+
+    .large_card {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .cards_holder {
+        width: 700px;
+    }
+    
+    .small_card {
+        width: 700px;
+    }
 }
 
 

@@ -400,11 +400,14 @@ html, body{
     }
     .card1-image{
         width: 200px;
-        height: 150px;
+        height: 50px;
     }
     .card1-button, .card2-button, .card3-button, .card4-button {
         margin-left: 0;  
         width: auto;  
+    }
+    .card1-title{
+        font-size: 10px;
     }
 
     /* Carousel */
@@ -435,6 +438,8 @@ html, body{
     .help-card1-text {
         font-size: 20px; 
     }
+    
+
     .help-card4-text{
         font-size: 20px;
     }
