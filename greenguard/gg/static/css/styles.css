@@ -482,29 +482,6 @@
 
 }
 
-@media screen and (max-width: 1170px) {
-    .cards_holder {
-        margin-right: 20px;
-    }
-}
-
-@media screen and (max-width: 1150px) {
-    .tip_card {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-}
-
-@media screen and (max-width: 1139px) {
-    .cards_holder {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .large_card {
-        width: 150px;
-    }
-}
 
 /* animations */
 @keyframes card_hover {
