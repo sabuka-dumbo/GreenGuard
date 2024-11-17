@@ -40,6 +40,15 @@
     margin-left: 15px;
 }
 
+.cards_main_holder {
+    display: flex; 
+    justify-content: center; 
+    justify-items: center; 
+    flex-wrap: wrap; 
+    padding-left: 50px; 
+    padding-right: 50px;
+}
+
 .cards_holder {
     position: relative;
     top: 0;
@@ -466,7 +475,14 @@
 
 /* responsive */
 @media screen and (max-width: 1200px) {
-    
+    .cards_main_holder {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .cards_holder {
+
+    }
 }
 
 /* animations */
