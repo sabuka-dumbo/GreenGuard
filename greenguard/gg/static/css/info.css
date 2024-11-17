@@ -395,10 +395,7 @@ html, body{
         padding: 1em;
     }
     
-    .card1{
-        width: 400px;
-        height: 200px;
-    }
+    
     .card1, .card2, .card3, .card4{
         width: 100%;
         margin-right: 2%;
@@ -412,7 +409,8 @@ html, body{
         width: auto;  
     }
     .card1-title{
-        font-size: 10px;
+        font-size: 30px;
+        margin-bottom: 0px;
     }
 
     /* Carousel */

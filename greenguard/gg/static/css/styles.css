@@ -508,7 +508,10 @@
 }
 
 @media screen and (max-width: 600px) {
-    
+    .small_card_text {
+        font-size: 18px;
+        width: 60%;
+    }
 }
 
 
