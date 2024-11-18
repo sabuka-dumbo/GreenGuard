@@ -153,6 +153,8 @@
 
 .description_card_holder {
     display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .description_card {
