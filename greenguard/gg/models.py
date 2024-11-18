@@ -7,7 +7,9 @@ class User(AbstractUser):
 
 class Company(models.Model):
     company_name = models.CharField(max_length=150)
-    
+    email_address = models.CharField(max_length=250)
+    address_first = models.CharField(max_length=500)
+    address_second = models.CharField(max_length=500)
 
 class Usage(models.Model):
     usage_type = models.CharField(max_length=150)
