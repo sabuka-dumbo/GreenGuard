@@ -6,7 +6,8 @@ class User(AbstractUser):
     pass
 
 class Company(models.Model):
-    name
+    company_name = models.CharField(max_length=150)
+    
 
 class Usage(models.Model):
     usage_type = models.CharField(max_length=150)
