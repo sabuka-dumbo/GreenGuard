@@ -508,12 +508,14 @@
         margin: 0;
         margin-right: 20px;
         width: 400px;
+        margin-top: 50px;
         
     }
 
     .energy_saving_chart_div {
         width: 300px;
         margin: 0;
+        margin-top: 50px;
     }
 }
 
