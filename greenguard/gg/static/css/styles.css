@@ -488,6 +488,10 @@
     .large_card {
         width: 300px;
     }
+
+    .tip_card {
+        margin-right: 20px;
+    }
 }
 
 @media screen and (max-width: 990px) {
