@@ -10,6 +10,8 @@ class Company(models.Model):
     email_address = models.CharField(max_length=250)
     address_first = models.CharField(max_length=500)
     address_second = models.CharField(max_length=500)
+    phone_number = models.CharField(max_length=200)
+    phone_number_
 
 class Usage(models.Model):
     usage_type = models.CharField(max_length=150)
