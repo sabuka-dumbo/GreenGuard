@@ -583,6 +583,18 @@
     }
 }
 
+@media screen and (max-width: 550px) {
+    .tip_card {
+        padding-bottom: 0;
+    }
+
+    .tip_card_tip {
+        width: calc(100% - 20px);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
 @media screen and (max-width: 380px) {
     .small_card {
         height: 300px;
