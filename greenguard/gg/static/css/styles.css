@@ -151,6 +151,10 @@
     height: max-content;
 }
 
+.description_card_holder {
+    display: flex;
+}
+
 .description_card {
     position: relative;
     top: 0;
@@ -158,8 +162,7 @@
     width: 850px;
     height: 400px;
     background-color: #FFFFFF;
-    display: block;
-    margin-left: 50px;
+    justify-self: center;
     margin-top: 50px;
     overflow-y: auto;
     overflow-x: hidden;
