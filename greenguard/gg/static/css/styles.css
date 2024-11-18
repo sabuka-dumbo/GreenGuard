@@ -585,13 +585,15 @@
 
 @media screen and (max-width: 550px) {
     .tip_card {
-        padding-bottom: 0;
+        height: max-content;
+        padding-bottom: 200px;
     }
 
     .tip_card_tip {
         width: calc(100% - 20px);
         margin-left: 10px;
         margin-right: 10px;
+        height: max-content;
     }
 }
 
