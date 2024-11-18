@@ -496,7 +496,8 @@
 
     .cards_holder2 {
         margin: 0;
-        margin-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .large_card {
@@ -507,6 +508,7 @@
         margin: 0;
         margin-right: 20px;
         width: 400px;
+        
     }
 
     .energy_saving_chart_div {
