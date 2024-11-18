@@ -5,6 +5,9 @@ from django.contrib.auth.models import AbstractUser
 class User(AbstractUser):
     pass
 
+class Company(models.Model):
+    name
+
 class Usage(models.Model):
     usage_type = models.CharField(max_length=150)
     date = models.DateField()
