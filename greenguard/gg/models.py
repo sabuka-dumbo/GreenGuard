@@ -16,6 +16,11 @@ class Company(models.Model):
     country = models.CharField(max_length=200)
     city = models.CharField(max_length=200)
     main_language = models.CharField(max_length=200)
+    owners = models.ManyToManyField(User, related_name="owners")
+    members = models.ManyToManyField(User, related_name="members")
+
+    def __str__(self):
+        return f"${self.company_name}"
 
 class Usage(models.Model):
     usage_type = models.CharField(max_length=150)
