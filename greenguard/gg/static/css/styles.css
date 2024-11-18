@@ -547,6 +547,14 @@
         margin-left: 10px;
         margin-right: 10px;
     }
+
+    .energy_saving_chart_div {
+        width: calc(100% - 20px);
+        margin: 0;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
 @media screen and (max-width: 600px) {
