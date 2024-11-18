@@ -18,6 +18,7 @@ class Company(models.Model):
     main_language = models.CharField(max_length=200)
     owners = models.ManyToManyField(User, related_name="owners")
     members = models.ManyToManyField(User, related_name="members")
+    password = models.CharField(max_length=64)
 
     def __str__(self):
         return f"${self.company_name}"
