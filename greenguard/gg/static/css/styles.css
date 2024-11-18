@@ -541,7 +541,11 @@
     }
 
     .tip_card {
-        width: 100%;
+        width: calc(100% - 20px);
+        margin: 0;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
