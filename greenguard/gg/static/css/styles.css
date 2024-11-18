@@ -59,6 +59,15 @@
     margin-left: 50px;
 }
 
+.cards_holder2 {
+    display: flex; 
+    justify-content: center; 
+    justify-items: center; 
+    flex-wrap: wrap;
+    padding-left: 50px; 
+    padding-right: 50px;
+}
+
 .small_card_texts {
     position: absolute;
     top: 0;
@@ -485,12 +494,24 @@
         margin-right: 20px;
     }
 
+    .cards_holder2 {
+        margin: 0;
+        margin-right: 20px;
+    }
+
     .large_card {
         width: 300px;
     }
 
     .tip_card {
+        margin: 0;
         margin-right: 20px;
+        width: 400px;
+    }
+
+    .energy_saving_chart_div {
+        width: 300px;
+        margin: 0;
     }
 }
 
