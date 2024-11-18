@@ -534,6 +534,15 @@
         width: calc(100% - 20px);
     }
 
+    .cards_holder2 {
+        width: calc(100% - 20px);
+        padding-left: 10px;
+        padding-right: 10px
+    }
+
+    .tip_card {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {
