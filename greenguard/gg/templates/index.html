@@ -76,47 +76,49 @@
         <div class="energy_saving_chart_div"></div>
     </div>
 
-    <div class="description_card">
-        <div class="description_card_inputs">
-            <select class="usage_type normal-font" name="usage_type" id="usage_type">
-                <option value="">Water</option>
-                <option value="">Energy</option>
-                <option value="">Waste</option>
-                <option value=""></option>
-            </select>
+    <div style="display: flex; justify-items: center;">
+        <div class="description_card">
+            <div class="description_card_inputs">
+                <select class="usage_type normal-font" name="usage_type" id="usage_type">
+                    <option value="">Water</option>
+                    <option value="">Energy</option>
+                    <option value="">Waste</option>
+                    <option value=""></option>
+                </select>
 
-            <input class="usage_name normal-font" type="text" name="usage_name" id="usage_name">
-            <label class="usage_name_label normal-font" for="usage_name" id="usage_name_label">Title here</label>
-            
-            <input class="usage_value normal-font" type="text" name="usage_value" id="usage_value">
-            <label class="usage_value_label normal-font" for="usage_value" id="usage_value_label">Value here</label>
+                <input class="usage_name normal-font" type="text" name="usage_name" id="usage_name">
+                <label class="usage_name_label normal-font" for="usage_name" id="usage_name_label">Title here</label>
+                
+                <input class="usage_value normal-font" type="text" name="usage_value" id="usage_value">
+                <label class="usage_value_label normal-font" for="usage_value" id="usage_value_label">Value here</label>
 
-            <input class="usage_submit normal-font" type="submit" id="usage_submit" value="New">
+                <input class="usage_submit normal-font" type="submit" id="usage_submit" value="New">
 
-            <hr class="description_line">  
+                <hr class="description_line">  
 
-        </div>
-
-        <div class="sorting_list">
-            <h1 class="sl_usage normal-font">Usage type</h1>
-            <h1 class="sl_date normal-font">Date</h1>
-            <h1 class="sl_title normal-font">Title/Reason</h1>
-            <h1 class="sl_value normal-font">Usage value</h1>
-            <h1 class="sl_member normal-font">Member</h1>
-        </div>
-        
-        {% for i in sorted_list %}
-            <div class="sorted_list">
-                <hr class="top_border">
-                <h1 class="sl_usage small-font" style="color: black;">Energy usage</h1>
-                <h1 class="sl_date small-font" style="color: black;">2024/10/19 3:16 PM</h1>
-                <h1 class="sl_title small-font" style="color: black;">Some reason aka title here</h1>
-                <h1 class="sl_value small-font" style="color: black;">78KW</h1>
-                <h1 class="sl_member small-font" style="color: black;">ID#2518</h1>
             </div>
-        {% endfor %}
 
-        <br>
+            <div class="sorting_list">
+                <h1 class="sl_usage normal-font">Usage type</h1>
+                <h1 class="sl_date normal-font">Date</h1>
+                <h1 class="sl_title normal-font">Title/Reason</h1>
+                <h1 class="sl_value normal-font">Usage value</h1>
+                <h1 class="sl_member normal-font">Member</h1>
+            </div>
+            
+            {% for i in sorted_list %}
+                <div class="sorted_list">
+                    <hr class="top_border">
+                    <h1 class="sl_usage small-font" style="color: black;">Energy usage</h1>
+                    <h1 class="sl_date small-font" style="color: black;">2024/10/19 3:16 PM</h1>
+                    <h1 class="sl_title small-font" style="color: black;">Some reason aka title here</h1>
+                    <h1 class="sl_value small-font" style="color: black;">78KW</h1>
+                    <h1 class="sl_member small-font" style="color: black;">ID#2518</h1>
+                </div>
+            {% endfor %}
+
+            <br>
+        </div>
     </div>
 
     <section style="display: none;">

@@ -158,8 +158,7 @@
     width: 850px;
     height: 400px;
     background-color: #FFFFFF;
-    display: flexbox;
-    justify-self: center;
+    display: block;
     margin-left: 50px;
     margin-top: 50px;
     overflow-y: auto;
