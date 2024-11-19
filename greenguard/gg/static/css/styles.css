@@ -497,7 +497,7 @@
 
 
 
-/* responsive */
+/* responsive 
 @media screen and (max-width: 1250px) {
     .cards_holder {
         margin-right: 20px;
@@ -570,7 +570,7 @@
         margin-left: 10px;
         margin-right: 10px;
     }
-}
+}*/
 
 @media screen and (max-width: 600px) {
     .small_card_text {
