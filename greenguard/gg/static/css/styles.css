@@ -42,9 +42,6 @@
 
 .cards_main_holder {
     display: flex; 
-    justify-content: center; 
-    justify-items: center; 
-    flex-wrap: wrap; 
     padding-left: 50px; 
     padding-right: 50px;
 }
