@@ -494,7 +494,7 @@
 
 
 
-/* responsive 
+/* responsive */
 @media screen and (max-width: 1250px) {
     .cards_holder {
         margin-right: 20px;
@@ -506,22 +506,18 @@
         margin-right: calc((100% - 720px) / 2);
     }
 
+    .cards_holder2 {
+        width: 720px;
+        margin-left: calc((100% - 720px) / 2);
+        margin-right: calc((100% - 720px) / 2);
+    }
+
     .large_card {
         width: 300px;
     }
 
-    .tip_card {
-        margin: 0;
-        margin-right: 20px;
-        width: 400px;
-        margin-top: 50px;
-        
-    }
-
     .energy_saving_chart_div {
         width: 300px;
-        margin: 0;
-        margin-top: 50px;
     }
 }
 
@@ -553,21 +549,17 @@
     }
 
     .tip_card {
-        width: calc(100% - 20px);
-        margin: 0;
-        margin-top: 50px;
-        margin-left: 10px;
-        margin-right: 10px;
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .energy_saving_chart_div {
-        width: calc(100% - 20px);
-        margin: 0;
-        margin-top: 50px;
-        margin-left: 10px;
-        margin-right: 10px;
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
     }
-}*/
+}
 
 @media screen and (max-width: 600px) {
     .small_card_text {
