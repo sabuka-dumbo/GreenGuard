@@ -259,7 +259,7 @@
 .usage_submit {
     position: absolute;
     top: 25px;
-    left: 805px;
+    left: 770px;
     padding: 0;
     margin: 0;
     height: 40px;
@@ -281,7 +281,7 @@
     top: 40px;
     left: 0;
     margin-top: 10px;
-    width: calc(100% - 10px);
+    width: 800px;
     display: block;
     border: 2px solid #DA8359;
 }
