@@ -505,9 +505,9 @@
     }
 
     .cards_main_holder {
-        width: 730px;
-        margin-left: calc((100% - 730px) / 2);
-        margin-right: calc((100% - 730px) / 2);
+        width: 720px;
+        margin-left: calc((100% - 720px) / 2);
+        margin-right: calc((100% - 720px) / 2);
     }
 
     .large_card {
@@ -530,25 +530,7 @@
 }
 
 @media screen and (max-width: 990px) {
-    .cards_holder {
-        width: calc(100% - 20px);
-        margin-right: 10px;
-        margin-left: 10px;
-    }
     
-    .small_card {
-        width: 100%;
-    }
-
-    .large_card {
-        width: calc(100% - 20px);
-    }
-
-    .cards_holder2 {
-        width: calc(100% - 20px);
-        padding-left: 10px;
-        padding-right: 10px
-    }
 
     .tip_card {
         width: calc(100% - 20px);
