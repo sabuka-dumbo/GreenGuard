@@ -550,6 +550,12 @@
         margin-right: 20px;
     }
 
+    .large_card {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
     .tip_card {
         width: calc(100% - 20px);
         margin: 0;
