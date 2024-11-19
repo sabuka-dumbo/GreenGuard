@@ -532,6 +532,8 @@
 @media screen and (max-width: 990px) {
     .cards_main_holder {
         width: 100%;
+        left: 0px;
+        display: block;
     }
 
     .cards_holder {
