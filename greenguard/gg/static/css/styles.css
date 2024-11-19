@@ -193,7 +193,7 @@
     text-align: center;
     margin: 0;
     padding: 0;
-    display: inline-block;
+    display: inline;
 }
 
 .usage_type:focus {
@@ -213,7 +213,7 @@
     border-radius: 5px;
     margin: 0;
     padding: 0;
-    display: inline-block;
+    display: inline;
     margin-left: 20px;
     padding: 5px;
     padding-left: 10px;
@@ -241,7 +241,7 @@
     border-radius: 5px;
     margin: 0;
     padding: 0;
-    display: inline-block;
+    display: inline;
     margin-left: 20px;
     padding: 5px;
     padding-left: 10px;
