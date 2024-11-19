@@ -500,25 +500,20 @@
 
 /* responsive */
 @media screen and (max-width: 1250px) {
-    .cards_main_holder {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
     .cards_holder {
-        margin: 0;
         margin-right: 20px;
     }
 
-    .cards_holder2 {
-        margin: 0;
-        padding-left: 10px;
-        padding-right: 10px;
+    .cards_main_holder {
+        width: 820px;
+        margin-left: calc((100% - 820px) / 2);
+        margin-right: calc((100% - 820px) / 2);
     }
 
     .large_card {
         width: 300px;
     }
+    
 
     .tip_card {
         margin: 0;
