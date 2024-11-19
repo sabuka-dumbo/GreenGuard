@@ -534,6 +534,8 @@
         width: 100%;
         left: 0px;
         display: block;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .cards_holder {
