@@ -530,8 +530,12 @@
 }
 
 @media screen and (max-width: 990px) {
+    .cards_main_holder {
+    width: 100%;
+    }
+
     .cards_holder {
-        width: 100%;
+        width: 200%;
     }
 
     .tip_card {
