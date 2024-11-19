@@ -180,9 +180,9 @@
 }
 
 .usage_type {
-    position: relative;
-    top: 0;
-    left: 0;
+    position: absolute;
+    top: 25px;
+    left: 15px;
     width: 100px;
     height: 40px;
     background-color: #ECDFCC;
@@ -201,10 +201,10 @@
 }
 
 .usage_name {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
-    width: 190px;
+    width: 115px;
     height: 30px;
     background-color: #ECDFCC;
     font-family: "Itim";
