@@ -41,9 +41,10 @@
 }
 
 .cards_main_holder {
-    display: flex; 
-    padding-left: 50px; 
-    padding-right: 50px;
+    display: flex;
+    width: 850px;
+    margin-left: calc((100% - 850px) / 2);
+    margin-right: calc((100% - 850px) / 2);
 }
 
 .cards_holder {
@@ -53,7 +54,7 @@
     display: inline-block;
     width: 400px;
     margin-right: 50px;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 .cards_holder2 {
@@ -487,7 +488,7 @@
 
 
 
-/* responsive */
+/* responsive 
 @media screen and (max-width: 1250px) {
     .cards_main_holder {
         padding-left: 10px;
@@ -560,7 +561,7 @@
         margin-left: 10px;
         margin-right: 10px;
     }
-}
+}*/
 
 @media screen and (max-width: 600px) {
     .small_card_text {
