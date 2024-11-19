@@ -48,12 +48,12 @@
     margin: 0;
     padding: 0;
     margin-top: 30px;
+    margin-left: calc((250px - 120px) / 2);
     border-radius: 100%;
     border: none;
     outline: none;
     background-color: azure;
     display: flex;
-    justify-self: center;
 }
 
 .navbar-info {
@@ -66,7 +66,7 @@
     padding: 0;
     margin-top: 15px;
     display: flexbox;
-    justify-self: center;
+    margin-left: calc((250px - 200px) /2);
 }
 
 .navbar-info-text {
@@ -92,7 +92,7 @@
     padding: 0;
     margin-top: 15px;
     display: flexbox;
-    justify-self: center;
+    margin-left: calc((250px - 200px) / 2);
 }
 
 .navbar-category {
