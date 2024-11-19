@@ -384,20 +384,19 @@
     position: relative;
     top: 0;
     left: 0;
-    width: 300px;
+    width: 200px;
     height: 200px;
-    margin-left: calc((100% - 300px) / 2);
-    margin-right: calc((100% - 300px) / 2);
+    margin-left: calc((100% - 200px) / 2);
+    margin-right: calc((100% - 200px) / 2);
 }
 
 .Chart {
     position: relative;
     top: 0;
     left: 0;
-    width: 300px;
+    width: 200px;
     height: 200px;
     display: flexbox;
-    margin-left: calc((100% - 300px) / 2);
 }
 
 .recycle_cards {
