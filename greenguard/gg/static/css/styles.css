@@ -380,6 +380,16 @@
     border-radius: 4px;
 }
 
+.Chart1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    margin-left: calc((100% - 300px) / 2);
+    margin-right: calc((100% - 300px) / 2);
+}
+
 .Chart {
     position: relative;
     top: 0;
