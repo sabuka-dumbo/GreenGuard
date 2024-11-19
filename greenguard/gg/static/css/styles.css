@@ -505,15 +505,14 @@
     }
 
     .cards_main_holder {
-        width: 820px;
-        margin-left: calc((100% - 820px) / 2);
-        margin-right: calc((100% - 820px) / 2);
+        width: 730px;
+        margin-left: calc((100% - 730px) / 2);
+        margin-right: calc((100% - 730px) / 2);
     }
 
     .large_card {
         width: 300px;
     }
-    
 
     .tip_card {
         margin: 0;
