@@ -303,6 +303,18 @@
     .navbar-category {
         font-size: 25px;
     }
+
+    .navbar-img {
+        margin-left: calc((100% - 180px) / 2);
+    }
+
+    .navbar-navmenu {
+        margin-left: calc((100% - 200px) / 2);
+    }
+
+    .navbar-info {
+        margin-left: calc((100% - 350px) / 2);
+    }
 }
 
 
