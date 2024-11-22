@@ -231,7 +231,7 @@
 .usage_value {
     position: absolute;
     top: 25px;
-    left: 335px;
+    left: 325px;
     width: 220px;
     height: 30px;
     background-color: #ECDFCC;
@@ -259,7 +259,7 @@
 .usage_submit {
     position: absolute;
     top: 25px;
-    left: 770px;
+    left: 740px;
     padding: 0;
     margin: 0;
     height: 40px;
