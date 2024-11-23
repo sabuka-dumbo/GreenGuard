@@ -11,7 +11,7 @@
         <div class="getstarted">
             <div class="main">
                 <div class="card">
-                    <img src="Magnifying Glass.svg" alt="Imaage placeholder" class="card-pic">
+                    <img src="Magnifying Glass.svg" alt="Image placeholder" class="card-pic">
                     <div class="content">
                         <h1 class="title">Let's get started</h1>
                         <div class="chekbox-container">
@@ -23,6 +23,7 @@
                 </div>
             </div>
         </div>
+
 
         <div class="contact">
             <div class="register-main">
@@ -59,6 +60,125 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="organization">
+            <div class="main">
+                <div class="card">
+                    <img src="#" alt="Image placeholder" class="card-pic">
+                    <div class="content">
+                        <h2 class="title">About the organization</h2>
+                        <p class="text">Give us information about the goal of the organization</p>
+                        <div class="selection">
+                            <input type="text" placeholder="Tell us about goal" class="goal" required>
+                            <select name="count" id="count" class="count">
+                                <option value="1">Employee count</option>
+                                <option value="2">Option 2</option>
+                                <option value="3">Option 3</option>
+                            </select>
+                            <input type="text" placeholder="Owner's name" class="name" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="region">
+            <div class="main">
+                <div class="card">
+                    <img src="Holding Smartphone.svg" alt="Image placeholder" class="card-pic">
+                    <div class="content">
+                        <h1 class="title">Choose your region</h1>
+                        <p class="text">Where are you from and what is your language</p>
+                        <form action="/chemin/vers/le/serveur" method="POST" class="form">
+                            <select name="country" id="country" class="country" required>
+                                <option value="1" disabled selected>Country</option>
+                                <option value="2">France</option>
+                                <option value="3">Russia</option>
+                                <option value="4">China</option>
+                                <option value="5">South korea</option>
+                                <option value="6">Australia</option>
+                                <option value="7">India</option>
+                                <option value="8">USA</option>
+                                <option value="9">UK</option>
+                                <option value="10">Reunion Island</option>
+                            </select>
+                            <select name="city" id="city" class="city">
+                                <option value="1" disabled selected>City</option>
+                                <option value="2">Paris</option>
+                                <option value="3">Johannesbourg</option>
+                                <option value="4">Mumbai</option>
+                                <option value="5">Seoul</option>
+                                <option value="6">Changhai</option>
+                                <option value="7">London</option>
+                                <option value="8">Istambul</option>
+                                <option value="9">Berlin</option>
+                                <option value="10">Saint-Denis</option>
+                            </select>
+                            <select name="language" id="language" class="language" required>
+                                <option value="1" disabled selected>Language</option>
+                                <option value="2">French</option>
+                                <option value="3">Russian</option>
+                                <option value="4">Chineese</option>
+                                <option value="5">Korean</option>
+                                <option value="6">Australian</option>
+                                <option value="7">Hindi</option>
+                                <option value="8">English(USA)</option>
+                                <option value="9">English(UK)</option>
+                                <option value="10">Gujarati</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <div class="private-info">
+            <div class="main">
+                <div class="card">
+                    <img src="#" alt="Image placeholder" class="card-pic">
+                    <div class="content">
+                        <h1 class="title">All information is all private until you public them!</h1>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <div class="password">
+            <div class="main">
+                <div class="card">
+                    <img src="#" alt="Image placeholder" class="card-pic">
+                    <div class="content">
+                        <h1 class="title">Set passwords</h1>
+                        <ul class="list">
+                            <li>Password must be 12-64 character long</li>
+                            <li>Must contain $ or @ or _ or -</li>
+                            <li>Must contain at least 3 number</li>
+                            <li>Must have at least one capital letter</li>
+                            <li>Better if password wont contain <br> company's name or owner's name</li>
+                        </ul>
+                        <div class="form">
+                            <input type="text" placeholder="Password here">
+                            <input type="text" placeholder="Confirm password here">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="done-page">
+            <div class="main">
+                <div class="card">
+                    <h2 class="title">All done!</h2>
+                    <br><br>
+                    <h2 class="subtitle">Please wait...</h2>
+                    <img src="#" alt="Image placeholder" class="card-pic">
+                </div>
+            </div>
+        </div>
+
+
         <script href="{% static 'js/register.js' %}"></script>
     </body>
 </html>
