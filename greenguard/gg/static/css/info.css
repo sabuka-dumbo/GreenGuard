@@ -362,7 +362,7 @@ html, body{
 
 
 
-/* Media Query pour les ecrans de telephone (portrait) */
+
 @media screen and (max-width: 480px) {
     
     /* Navbar */
