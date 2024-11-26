@@ -5,6 +5,118 @@
     font-family: sans-serif;
 }
 
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}
+
+.card{
+    display: flex;
+    text-align: left;
+    width: 90%;
+    height: 90%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;;
+    align-items: center;
+}
+
+.title{
+    font-family: 'Lemon', sans-serif;
+    font-size: 4em;
+    color: rgb(0, 153, 255);
+    margin-top: 0%;
+    padding: 5px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.card-pic{
+    width: 450px;
+    max-width: 500px;
+    height: auto;
+    margin-left: 3%;
+}
+.checkbox-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+
+label{
+    font-size: 1em;
+    color: grey;
+    font-family: 'Lemon', sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    padding-left: 10px;
+}
+.continue-btn{
+    font-size: 1.5em;
+    border: none;
+    color: white;
+    background-color: rgb(38, 168, 211) ;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 0%;
+    transition: background-color 0.3s ease;
+    font-family: 'Lemon', sans-serif;
+}
+.continue-btn:hover{
+    background-color: rgb(121, 138, 236);
+}
+
+@media (max-width: 600px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 90%;
+    }
+    .card-pic{
+        margin-top: -10%;
+    }
+    .title{
+        margin-top: -20%;
+        width: 100%;
+        font-size: 3em;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 910px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title{
+        margin-top: -15%;
+    }
+    .checkbox-container{
+        padding-bottom: 20px;
+    }
+}
+
+/*............................................................*/
+
 .register-main{
     display: flex;
     justify-content: center;
