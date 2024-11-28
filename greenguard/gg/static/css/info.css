@@ -47,8 +47,13 @@ html, body{
 
 .bi-box-arrow-in-right{
     font-size: 2em;
-    color: #5a9f46;
+    color: black;
     display: none;
+    padding: 5px;
+    transform: color 0.3s ease;
+}
+.bi-box-arrow-in-right:hover{
+    color: #5a9f46;
 }
 .register{
     padding: 10px 20px;
@@ -556,7 +561,7 @@ html, body{
     }
     .card1-button{
         font-size: 2.2em;
-        margin-left: 50%;
+        margin-left: 40%;
     }
     .card1-image{
         width: auto;
@@ -589,7 +594,7 @@ html, body{
     }
     .card3-button{
         font-size: 2.2em;
-        margin-left: 50%;
+        margin-left: 40%;
     }
     .card4{
         width: 100%;
