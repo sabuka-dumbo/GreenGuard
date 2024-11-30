@@ -6,4 +6,7 @@ Encourage remote work
 Adopt renewable energy
 Go paperless
 Upgrade to energy-efficient appliances
-
+#################################################################
+# In form (in a registering pages)
+ADD {% csrf_token %} for protection of form 
+#################################################################
